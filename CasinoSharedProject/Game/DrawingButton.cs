@@ -113,10 +113,6 @@ namespace Casino
             }
         }
 
-        public void Update(GameTime gameTime, int width, int height)
-        {
-        }
-
         public void Update(GameTime gameTime, int width, int height, int xPostion, int yPostion)
         {
             if (IsEnabled)
