@@ -3,11 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesktopCasino", "DesktopCasino\DesktopCasino.csproj", "{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6584F623-4E4A-4665-BE8D-FC97701EF5E6} = {6584F623-4E4A-4665-BE8D-FC97701EF5E6}
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidCasino", "AndroidCasino\AndroidCasino.csproj", "{B88A3D22-39D5-4AA3-B9E9-1D6588E1E397}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasinoSharedProject", "CasinoSharedProject\CasinoSharedProject.csproj", "{6584F623-4E4A-4665-BE8D-FC97701EF5E6}"
@@ -22,18 +17,6 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Android|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Android|Any CPU.Build.0 = Debug|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Android|x64.ActiveCfg = Android|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Android|x64.Build.0 = Android|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Debug|x64.Build.0 = Debug|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Release|x64.ActiveCfg = Release|Any CPU
-		{A1DE49A9-D4B4-47A8-B190-6BDA2A7C0F74}.Release|x64.Build.0 = Release|Any CPU
 		{B88A3D22-39D5-4AA3-B9E9-1D6588E1E397}.Android|Any CPU.ActiveCfg = Debug|Any CPU
 		{B88A3D22-39D5-4AA3-B9E9-1D6588E1E397}.Android|Any CPU.Build.0 = Debug|Any CPU
 		{B88A3D22-39D5-4AA3-B9E9-1D6588E1E397}.Android|Any CPU.Deploy.0 = Debug|Any CPU
