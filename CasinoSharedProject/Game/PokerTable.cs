@@ -15,6 +15,7 @@ using Microsoft.Xna.Framework.Content;
 using System.Timers;
 using Classes;
 using System.Threading.Tasks;
+using Microsoft.Xna.Framework.Input.Touch;
 
 namespace Casino
 {
@@ -53,7 +54,7 @@ namespace Casino
         private NewChat pokerTableChat;
         private KeyboardInput keyboard;
         private Keys currentInput;
-
+        private TouchCollection touchState;
         private float height;
         private float width;
 
@@ -744,23 +745,29 @@ namespace Casino
             {
                 aTimer.Enabled = true;
                 currentInput = keyboard.Update();
-                lastMessage = pokerTableChat.Update(i_gametime, new Vector2(640, 360), currentInput, keyboard.isCapsLockOn, keyboard.isShiftOn);
+                touchState = TouchPanel.GetState();
+                Vector2 touchLocation = new Vector2(-1, -1);
+                if (touchState.Count > 0)
+                    touchLocation = new Vector2(touchState[0].Position.X, touchState[0].Position.Y);
+                lastMessage = pokerTableChat.Update(i_gametime, new Vector2(640, 360),
+                    currentInput, keyboard.isCapsLockOn, keyboard.isShiftOn);
                 if (lastMessage != null)
                 {
-                    gameManager.server.SendMessageToTableChat(tableId, casinoId, userEmail, signature, userName, lastMessage);
+                    gameManager.server.SendMessageToTableChat(tableId, casinoId, 
+                        userEmail, signature, userName, lastMessage);
                 }
-                updateChat(i_gametime);
+                updateChat(i_gametime, touchLocation);
 
-                updateDrawHandsRating(i_gametime);
+                updateDrawHandsRating(i_gametime, touchLocation);
 
-                updateStatsPanel(i_gametime);
+                updateStatsPanel(i_gametime, touchLocation);
 
-                volumeOnOffButton.Update(i_gametime, 0, 0);
+                volumeOnOffButton.Update(i_gametime, 0, 0, (int)touchLocation.X, (int)touchLocation.Y);
 
                 activateBettingButtons();
                 foreach (DrawingButton button in sitButtons)
                 {
-                    button.Update(i_gametime, 0, 0);
+                    button.Update(i_gametime, 0, 0, (int)touchLocation.X, (int)touchLocation.Y);
                 }
 
                 if (table != null)
@@ -768,9 +775,7 @@ namespace Casino
                     index = checkIfInTable();
                     if (index == -1)
                     {
-
                         myPlayer = null;
-
                     }
                     else
                     {
@@ -839,7 +844,7 @@ namespace Casino
                 }
 
                 _guiSystem.Update(i_gametime);
-                updateEnterMoneyPanel(i_gametime, currentInput);
+                updateEnterMoneyPanel(i_gametime, currentInput, touchLocation);
             }
             catch (Exception) { }
         }
@@ -996,18 +1001,17 @@ namespace Casino
             chipMovingLocation[9] = new Vector2(x, y);
         }
 
-        private void updateStatsPanel(GameTime i_gameTime)
+        private void updateStatsPanel(GameTime i_gameTime, Vector2 i_screenTouch)
         {
             if (!isStatsPanelVisible)
             {
-                MouseState mState = Mouse.GetState();
-                Rectangle mouseRectange = new Rectangle(mState.X, mState.Y, 1, 1);
+                Rectangle touchRectange = new Rectangle((int)i_screenTouch.X, (int)i_screenTouch.Y, 1, 1);
                 Rectangle playerRectangel = new Rectangle(0, 0, (int)(75 * width), (int)(75 + storage.Cards[0].Height * height));
                 for (int i = 0; i < playersLocations.Count; i++)
                 {
                     playerRectangel.X = (int)playersLocations[i].X;
                     playerRectangel.Y = (int)(playersLocations[i].Y - 60 * height);
-                    if (mouseRectange.Intersects(playerRectangel) && mState.LeftButton == ButtonState.Pressed && table.PlayersInTable[i] != null)
+                    if (touchRectange.Intersects(playerRectangel) && table.PlayersInTable[i] != null)
                     {
                         isStatsPanelVisible = true;
                         currentStatsPlayer = i;
@@ -1016,23 +1020,23 @@ namespace Casino
             }
             else
             {
-                closeStatsPanelButton.Update(i_gameTime, 0, 0);
+                closeStatsPanelButton.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
             }
         }
 
-        private void updateDrawHandsRating(GameTime i_gameTime)
+        private void updateDrawHandsRating(GameTime i_gameTime, Vector2 i_screenTouch)
         {
             try
             {
                 if (isHandsRatingVisible)
                 {
-                    closeHandsRatingButton.Update(i_gameTime, 0, 0);
+                    closeHandsRatingButton.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
                 }
             }
             catch (Exception) { }
         }
 
-        private void updateEnterMoneyPanel(GameTime i_gameTime, Keys i_input)
+        private void updateEnterMoneyPanel(GameTime i_gameTime, Keys i_input, Vector2 i_screenTouch)
         {
             try
             {
@@ -1046,18 +1050,22 @@ namespace Casino
                     enterMoneyConfirm.IsVisible = true;
                     enterMoneyExit.IsEnabled = true;
                     enterMoneyExit.IsVisible = true;
-                    enterMoneyRaiseUp.Position = new Vector2(enterMoneyRectangle.X + 290, enterMoneyRectangle.Y + 150);
+                    enterMoneyRaiseUp.Position = new Vector2(enterMoneyRectangle.X + 290, 
+                        enterMoneyRectangle.Y + 150);
                     enterMoneyRaiseUp.Size = new Size(80, 50);
-                    enterMoneyRaiseUp.Update(i_gameTime, 0, 0);
-                    enterMoneyRaiseDown.Position = new Vector2(enterMoneyRectangle.X + 30, enterMoneyRectangle.Y + 150);
+                    enterMoneyRaiseUp.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
+                    enterMoneyRaiseDown.Position = new Vector2(enterMoneyRectangle.X + 30, 
+                        enterMoneyRectangle.Y + 150);
                     enterMoneyRaiseDown.Size = new Size(80, 50);
-                    enterMoneyRaiseDown.Update(i_gameTime, 0, 0);
-                    enterMoneyConfirm.Position = new Vector2(enterMoneyRectangle.X + 30, enterMoneyRectangle.Y + 330);
+                    enterMoneyRaiseDown.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
+                    enterMoneyConfirm.Position = new Vector2(enterMoneyRectangle.X + 30, 
+                        enterMoneyRectangle.Y + 330);
                     enterMoneyConfirm.Size = new Size(150, 50);
-                    enterMoneyConfirm.Update(i_gameTime, 0, 0);
-                    enterMoneyExit.Position = new Vector2(enterMoneyRectangle.X + 250, enterMoneyRectangle.Y + 330);
+                    enterMoneyConfirm.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
+                    enterMoneyExit.Position = new Vector2(enterMoneyRectangle.X + 250, 
+                        enterMoneyRectangle.Y + 330);
                     enterMoneyExit.Size = new Size(120, 50);
-                    enterMoneyExit.Update(i_gameTime, 0, 0);
+                    enterMoneyExit.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
                     enterMoneyTextbox.Update(i_input, new Vector2(enterMoneyRaiseDown.Position.X + 93, enterMoneyRaiseDown.Position.Y));
                 }
                 else
@@ -1075,20 +1083,28 @@ namespace Casino
             catch (Exception) { }
         }
 
-        private void updateChat(GameTime i_gametime)
+        private void updateChat(GameTime i_gametime, Vector2 i_screenTouch)
         {
             try
             {
                 pokerTableChat.ChatButton.Position = new Vector2(1280 - storage.GreenUI[0].Width, 720 - storage.GreenUI[0].Height);
-                pokerTableChat.ChatButton.Update(i_gametime, 0, 0);
-                pokerTableChat.MoveChatUpButton.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10, 410);
-                pokerTableChat.MoveChatUpButton.Update(i_gametime, 0, 0);
-                pokerTableChat.MoveChatDownButton.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10, 605);
-                pokerTableChat.MoveChatDownButton.Update(i_gametime, 0, 0);
+                pokerTableChat.ChatButton.Update(i_gametime, 0, 0,
+                    (int)i_screenTouch.X, (int)i_screenTouch.Y);
+                pokerTableChat.MoveChatUpButton.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10,
+                    410);
+                pokerTableChat.MoveChatUpButton.Update(i_gametime, 0, 0,
+                    (int)i_screenTouch.X, (int)i_screenTouch.Y);
+                pokerTableChat.MoveChatDownButton.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10,
+                    605);
+                pokerTableChat.MoveChatDownButton.Update(i_gametime, 0, 0,
+                    (int)i_screenTouch.X, (int)i_screenTouch.Y);
                 pokerTableChat.SendMessageButton.Position = new Vector2(0, 680);
-                pokerTableChat.SendMessageButton.Update(i_gametime, 0, 0);
-                pokerTableChat.MoveChatToLastMessage.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10, 655);
-                pokerTableChat.MoveChatToLastMessage.Update(i_gametime, 0, 0);
+                pokerTableChat.SendMessageButton.Update(i_gametime, 0, 0,
+                    (int)i_screenTouch.X, (int)i_screenTouch.Y);
+                pokerTableChat.MoveChatToLastMessage.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10,
+                    655);
+                pokerTableChat.MoveChatToLastMessage.Update(i_gametime, 0, 0,
+                    (int)i_screenTouch.X, (int)i_screenTouch.Y);
             }
             catch (Exception) { }
         }
@@ -1156,13 +1172,7 @@ namespace Casino
                     }
                 }
             }
-            catch (Exception e)
-            {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(Logger.Path, true))
-                {
-                    file.WriteLine("PokerTable.CheckOrCall " + e.Message);
-                }
-            }
+            catch (Exception) { }
         }
 
         public void Draw(GameTime i_gametime)
