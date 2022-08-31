@@ -39,7 +39,6 @@ namespace Casino
         private bool updateEndRound = false;
         private bool roundEnd;
         private PokerPlayer myPlayer;
-        private User playerInformation;
 
 
         // Server data
@@ -140,18 +139,17 @@ namespace Casino
             catch (Exception) { }
         }
 
-        public async Task Load()
+        public async Task Load(Table i_backupTable)
         {
             try
             {
                 initializeIntervals();
                 table = await gameManager.server.GetTableById(tableId, casinoId, userEmail);
-                playerInformation = await gameManager.server.GetUserDetails(userEmail);
 
-                width = Game1.UserScreenWidth / 1280;
-                height = Game1.UserScreenHeight / 720;
+                width = (float)Game1.UserScreenWidth / 1280;
+                height = (float)Game1.UserScreenHeight / 720;
 
-                pokerTableChat = new NewChat(storage, 250, 250);
+                pokerTableChat = new NewChat(storage, (int)(250 * width), (int)(250 * height));
                 pokerTableChat.Load(painter);
 
                 keyboard = new KeyboardInput();
@@ -189,7 +187,7 @@ namespace Casino
 
                 handsRatingButton = new Button
                 {
-                    Size = new Size(150, 50),
+                    Size = new Size((int)(150 * width), (int)(50 * height)),
                     Content = "Hands Rating",
                     HorizontalAlignment = HorizontalAlignment.Centre,
                     VerticalAlignment = VerticalAlignment.Centre
@@ -199,7 +197,7 @@ namespace Casino
                 playerRemainingTime = new ProgressBar
                 {
                     Progress = 1f,
-                    Size = new Size(150, 50),
+                    Size = new Size((int)(150 * width), (int)(50 * height)),
                     BarColor = Color.Green,
                     IsVisible = false,
                     HorizontalAlignment = HorizontalAlignment.Centre,
@@ -208,7 +206,7 @@ namespace Casino
 
                 callButton = new Button
                 {
-                    Size = new Size(150, 50),
+                    Size = new Size((int)(150 * width), (int)(50 * height)),
                     Content = "Call",
                     Name = "1",
                     HorizontalAlignment = HorizontalAlignment.Centre,
@@ -218,7 +216,7 @@ namespace Casino
 
                 foldButton = new Button
                 {
-                    Size = new Size(150, 50),
+                    Size = new Size((int)(150 * width), (int)(50 * height)),
                     Content = "Fold",
                     Name = "3",
                     HorizontalAlignment = HorizontalAlignment.Centre,
@@ -228,7 +226,7 @@ namespace Casino
 
                 raiseButton = new Button
                 {
-                    Size = new Size(150, 50),
+                    Size = new Size((int)(150 * width), (int)(50 * height)),
                     Content = "Raise",
                     Name = "2",
                     HorizontalAlignment = HorizontalAlignment.Centre,
@@ -238,7 +236,7 @@ namespace Casino
 
                 raiseUpButton = new Button
                 {
-                    Size = new Size(50, 50),
+                    Size = new Size((int)(50 * width), (int)(50 * height)),
                     Content = ">",
                     HorizontalAlignment = HorizontalAlignment.Centre,
                     VerticalAlignment = VerticalAlignment.Centre,
@@ -249,7 +247,7 @@ namespace Casino
 
                 raiseDownButton = new Button
                 {
-                    Size = new Size(50, 50),
+                    Size = new Size((int)(50 * width), (int)(50 * height)),
                     Content = "<",
                     HorizontalAlignment = HorizontalAlignment.Centre,
                     VerticalAlignment = VerticalAlignment.Centre,
@@ -260,7 +258,7 @@ namespace Casino
 
                 allInButton = new Button
                 {
-                    Size = new Size(50, 50),
+                    Size = new Size((int)(50 * width), (int)(50 * height)),
                     Content = "All In",
                     HorizontalAlignment = HorizontalAlignment.Centre,
                     VerticalAlignment = VerticalAlignment.Centre,
@@ -271,7 +269,7 @@ namespace Casino
 
                 raiseAmountTextbox = new TextBox(minimumRaise.ToString())
                 {
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     IsVisible = false,
                     IsEnabled = true,
                     HorizontalAlignment = HorizontalAlignment.Centre,
@@ -281,7 +279,7 @@ namespace Casino
 
                 addAmountTextbox = new TextBox("0")
                 {
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     IsVisible = true,
                     IsEnabled = true,
                     HorizontalAlignment = HorizontalAlignment.Centre,
@@ -290,7 +288,7 @@ namespace Casino
 
                 exitButton = new Button
                 {
-                    Size = new Size(200, 50),
+                    Size = new Size((int)(200 * width), (int)(50 * height)),
                     Content = "Exit Back To Casino",
                     HorizontalAlignment = HorizontalAlignment.Centre,
                     VerticalAlignment = VerticalAlignment.Centre
@@ -299,8 +297,8 @@ namespace Casino
 
                 closeHandsRatingButton = new DrawingButton(storage.GreenUI[7], storage.Fonts[1])
                 {
-                    Position = new Vector2(1070, 80),
-                    Size = new Size(50, 50),
+                    Position = new Vector2(1070 * width, 80 * height),
+                    Size = new Size((int)(50 * width), (int)(50 * height)),
                     IsEnabled = false,
                     IsVisible = false
                 };
@@ -308,8 +306,8 @@ namespace Casino
 
                 closeStatsPanelButton = new DrawingButton(storage.GreyUI[7], storage.Fonts[1])
                 {
-                    Position = new Vector2(765, 125),
-                    Size = new Size(50, 50)
+                    Position = new Vector2(765 * width, 125 * height),
+                    Size = new Size((int)(50 * width), (int)(50 * height)),
                 };
                 closeStatsPanelButton.Click += CloseStatsPanel_Click;
 
@@ -317,7 +315,7 @@ namespace Casino
                 {
                     Text = "Sit",
                     Name = "0",
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     Position = playersLocations[0]
                 };
                 sit0Button.Click += SitButton_Clicked;
@@ -326,7 +324,7 @@ namespace Casino
                 {
                     Text = "Sit",
                     Name = "1",
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     Position = playersLocations[1]
                 };
                 sit1Button.Click += SitButton_Clicked;
@@ -335,7 +333,7 @@ namespace Casino
                 {
                     Text = "Sit",
                     Name = "2",
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     Position = playersLocations[2]
                 };
                 sit2Button.Click += SitButton_Clicked;
@@ -344,7 +342,7 @@ namespace Casino
                 {
                     Text = "Sit",
                     Name = "3",
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     Position = playersLocations[3]
                 };
                 sit3Button.Click += SitButton_Clicked;
@@ -353,7 +351,7 @@ namespace Casino
                 {
                     Text = "Sit",
                     Name = "4",
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     Position = playersLocations[4]
                 };
                 sit4Button.Click += SitButton_Clicked;
@@ -362,7 +360,7 @@ namespace Casino
                 {
                     Text = "Sit",
                     Name = "5",
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     Position = playersLocations[5]
                 };
                 sit5Button.Click += SitButton_Clicked;
@@ -371,7 +369,7 @@ namespace Casino
                 {
                     Text = "Sit",
                     Name = "6",
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     Position = playersLocations[6]
                 };
                 sit6Button.Click += SitButton_Clicked;
@@ -380,7 +378,7 @@ namespace Casino
                 {
                     Text = "Sit",
                     Name = "7",
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     Position = playersLocations[7]
                 };
                 sit7Button.Click += SitButton_Clicked;
@@ -389,7 +387,7 @@ namespace Casino
                 {
                     Text = "Sit",
                     Name = "8",
-                    Size = new Size(100, 50),
+                    Size = new Size((int)(100 * width), (int)(50 * height)),
                     Position = playersLocations[8]
                 };
                 sit8Button.Click += SitButton_Clicked;
@@ -420,9 +418,10 @@ namespace Casino
                 };
                 enterMoneyExit.Click += exitRebuyPanel_Clicked;
 
-                enterMoneyTextbox = new DrawingTextbox(150, 50, storage.GreenUI[6], storage.Fonts[1]);
+                enterMoneyTextbox = new DrawingTextbox((int)(150*width), (int)(50*height), storage.GreenUI[6], storage.Fonts[1]);
 
-                enterMoneyRectangle = new Rectangle(450, 130, 400, 400);
+                enterMoneyRectangle = new Rectangle((int)(450 * width), (int)(130 * height),
+                    (int)(400 * width), (int)(400 * height));
 
                 volumeOnOffButton = new DrawingButton(storage.GreenUI[0], storage.Fonts[0]);
                 if (MediaPlayer.Volume == 1f)
@@ -455,7 +454,7 @@ namespace Casino
                     Orientation = Orientation.Horizontal,
                     HorizontalAlignment = HorizontalAlignment.Centre,
                     VerticalAlignment = VerticalAlignment.Centre,
-                    Height = 100,
+                    Height = (int)(100 * height),
                     Items =
                 {
                     callButton,
@@ -508,7 +507,10 @@ namespace Casino
 
                 _guiSystem = new GuiSystem(viewportAdapter, guiRenderer) { ActiveScreen = pokerTableScreen };
             }
-            catch (Exception) { }
+            catch (Exception) 
+            {
+                table = i_backupTable;
+            }
         }
 
         private void VolumeOnOffButton_Click(object sender, EventArgs e)
@@ -536,8 +538,7 @@ namespace Casino
 
         private void raiseAmountTextbox_TextChanged(object sender, EventArgs e)
         {
-            int raiseAmount;
-            if (!(int.TryParse(raiseAmountTextbox.Text, out raiseAmount)))
+            if (!(int.TryParse(raiseAmountTextbox.Text, out int raiseAmount)))
             {
                 raiseAmountTextbox.Text = minimumRaise.ToString();
             }
@@ -743,13 +744,14 @@ namespace Casino
         {
             try
             {
+                _guiSystem.Update(i_gametime);
                 aTimer.Enabled = true;
                 currentInput = keyboard.Update();
                 touchState = TouchPanel.GetState();
                 Vector2 touchLocation = new Vector2(-1, -1);
                 if (touchState.Count > 0)
                     touchLocation = new Vector2(touchState[0].Position.X, touchState[0].Position.Y);
-                lastMessage = pokerTableChat.Update(i_gametime, new Vector2(640, 360),
+                lastMessage = pokerTableChat.Update(i_gametime, new Vector2(640*width, 360*height),
                     currentInput, keyboard.isCapsLockOn, keyboard.isShiftOn);
                 if (lastMessage != null)
                 {
@@ -843,7 +845,6 @@ namespace Casino
                     }
                 }
 
-                _guiSystem.Update(i_gametime);
                 updateEnterMoneyPanel(i_gametime, currentInput, touchLocation);
             }
             catch (Exception) { }
@@ -1006,7 +1007,8 @@ namespace Casino
             if (!isStatsPanelVisible)
             {
                 Rectangle touchRectange = new Rectangle((int)i_screenTouch.X, (int)i_screenTouch.Y, 1, 1);
-                Rectangle playerRectangel = new Rectangle(0, 0, (int)(75 * width), (int)(75 + storage.Cards[0].Height * height));
+                Rectangle playerRectangel = new Rectangle(0, 0, (int)(75 * width),
+                    (int)(75 * height + storage.Cards[0].Height));
                 for (int i = 0; i < playersLocations.Count; i++)
                 {
                     playerRectangel.X = (int)playersLocations[i].X;
@@ -1050,23 +1052,24 @@ namespace Casino
                     enterMoneyConfirm.IsVisible = true;
                     enterMoneyExit.IsEnabled = true;
                     enterMoneyExit.IsVisible = true;
-                    enterMoneyRaiseUp.Position = new Vector2(enterMoneyRectangle.X + 290, 
-                        enterMoneyRectangle.Y + 150);
-                    enterMoneyRaiseUp.Size = new Size(80, 50);
+                    enterMoneyRaiseUp.Position = new Vector2(enterMoneyRectangle.X + 290 * width, 
+                        enterMoneyRectangle.Y + 150 * height);
+                    enterMoneyRaiseUp.Size = new Size((int)(80 * width), (int)(50 * height));
                     enterMoneyRaiseUp.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
-                    enterMoneyRaiseDown.Position = new Vector2(enterMoneyRectangle.X + 30, 
-                        enterMoneyRectangle.Y + 150);
-                    enterMoneyRaiseDown.Size = new Size(80, 50);
+                    enterMoneyRaiseDown.Position = new Vector2(enterMoneyRectangle.X + 30 * width, 
+                        enterMoneyRectangle.Y + 150 * height);
+                    enterMoneyRaiseDown.Size = new Size((int)(80 * width), (int)(50 * height));
                     enterMoneyRaiseDown.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
-                    enterMoneyConfirm.Position = new Vector2(enterMoneyRectangle.X + 30, 
-                        enterMoneyRectangle.Y + 330);
-                    enterMoneyConfirm.Size = new Size(150, 50);
+                    enterMoneyConfirm.Position = new Vector2(enterMoneyRectangle.X + 30 * width, 
+                        enterMoneyRectangle.Y + 330 * height);
+                    enterMoneyConfirm.Size = new Size((int)(150 * width), (int)(50 * height));
                     enterMoneyConfirm.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
-                    enterMoneyExit.Position = new Vector2(enterMoneyRectangle.X + 250, 
-                        enterMoneyRectangle.Y + 330);
-                    enterMoneyExit.Size = new Size(120, 50);
+                    enterMoneyExit.Position = new Vector2(enterMoneyRectangle.X + 250 * width, 
+                        enterMoneyRectangle.Y + 330 * height);
+                    enterMoneyExit.Size = new Size((int)(120 * width), (int)(50 * height));
                     enterMoneyExit.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
-                    enterMoneyTextbox.Update(i_input, new Vector2(enterMoneyRaiseDown.Position.X + 93, enterMoneyRaiseDown.Position.Y));
+                    enterMoneyTextbox.Update(i_input, new Vector2(enterMoneyRaiseDown.Position.X + 93 * width,
+                        enterMoneyRaiseDown.Position.Y));
                 }
                 else
                 {
@@ -1087,22 +1090,23 @@ namespace Casino
         {
             try
             {
-                pokerTableChat.ChatButton.Position = new Vector2(1280 - storage.GreenUI[0].Width, 720 - storage.GreenUI[0].Height);
+                pokerTableChat.ChatButton.Position = new Vector2(1280 * width - storage.GreenUI[0].Width,
+                    720 * height - storage.GreenUI[0].Height);
                 pokerTableChat.ChatButton.Update(i_gametime, 0, 0,
                     (int)i_screenTouch.X, (int)i_screenTouch.Y);
-                pokerTableChat.MoveChatUpButton.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10,
-                    410);
+                pokerTableChat.MoveChatUpButton.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10 * width,
+                    410 * height);
                 pokerTableChat.MoveChatUpButton.Update(i_gametime, 0, 0,
                     (int)i_screenTouch.X, (int)i_screenTouch.Y);
-                pokerTableChat.MoveChatDownButton.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10,
-                    605);
+                pokerTableChat.MoveChatDownButton.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10 * width,
+                    605 * height);
                 pokerTableChat.MoveChatDownButton.Update(i_gametime, 0, 0,
                     (int)i_screenTouch.X, (int)i_screenTouch.Y);
-                pokerTableChat.SendMessageButton.Position = new Vector2(0, 680);
+                pokerTableChat.SendMessageButton.Position = new Vector2(0, 680 * height);
                 pokerTableChat.SendMessageButton.Update(i_gametime, 0, 0,
                     (int)i_screenTouch.X, (int)i_screenTouch.Y);
-                pokerTableChat.MoveChatToLastMessage.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10,
-                    655);
+                pokerTableChat.MoveChatToLastMessage.Position = new Vector2(pokerTableChat.ChatMessagesWidth + 10 * width,
+                    655 * height);
                 pokerTableChat.MoveChatToLastMessage.Update(i_gametime, 0, 0,
                     (int)i_screenTouch.X, (int)i_screenTouch.Y);
             }
@@ -1179,7 +1183,9 @@ namespace Casino
         {
             try
             {
-                painter.Draw(storage.Furnitures[6], new Rectangle(new Point(0, 0), new Point(1280, 620)), Color.White);
+                _guiSystem.Draw(i_gametime);
+                painter.Draw(storage.Furnitures[6], new Rectangle(new Point(0, 0),
+                    new Point((int)(1280 * width), (int)(620 * height))), Color.White);
                 foreach (DrawingButton button in sitButtons)
                 {
                     button.Draw(i_gametime, painter);
@@ -1203,7 +1209,6 @@ namespace Casino
 
                 drawStatsPanel(i_gametime);
 
-                _guiSystem.Draw(i_gametime);
                 drawEnterMoneyPanel(i_gametime);
             }
             catch (Exception)
@@ -1235,13 +1240,7 @@ namespace Casino
                     }
                 }
             }
-            catch (Exception e)
-            {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(Logger.Path, true))
-                {
-                    file.WriteLine("PokerTable.drawTotalBets " + e.Message);
-                }
-            }
+            catch (Exception) { }
         }
 
         private void drawStatsPanel(GameTime i_gameTime)
@@ -1253,41 +1252,55 @@ namespace Casino
                     PokerPlayer currentStatPlayer = table.PlayersInTable[currentStatsPlayer];
                     if (currentStatPlayer.Stat.Card1 == null)
                     {
-                        painter.Draw(storage.GreyUI[5], new Rectangle(450, 100, 400, 480), Color.White);
-                        painter.DrawString(storage.Fonts[0], "Player didn't win yet.", new Vector2(480, 390), Color.Black);
-                        painter.Draw(storage.Cards[52], new Vector2(480, 430), Color.White);
-                        painter.Draw(storage.Cards[52], new Vector2(480 + storage.Cards[0].Width, 430), Color.White);
-                        painter.Draw(storage.Cards[52], new Vector2(480 + storage.Cards[0].Width * 2, 430), Color.White);
-                        painter.Draw(storage.Cards[52], new Vector2(480 + storage.Cards[0].Width * 3, 430), Color.White);
-                        painter.Draw(storage.Cards[52], new Vector2(480 + storage.Cards[0].Width * 4, 430), Color.White);
+                        painter.Draw(storage.GreyUI[5], new Rectangle((int)(450 * width), (int)(100 * height)
+                            , (int)(400 * width), (int)(480 * height)), Color.White);
+                        painter.DrawString(storage.Fonts[0], "Player didn't win yet.",
+                            new Vector2(480 * width, 390 * height), Color.Black);
+                        painter.Draw(storage.Cards[52], new Vector2(480 * width, 430 * height), Color.White);
+                        painter.Draw(storage.Cards[52],
+                            new Vector2(480 * width + storage.Cards[0].Width, 430 * height), Color.White);
+                        painter.Draw(storage.Cards[52],
+                            new Vector2(480 * width + storage.Cards[0].Width * 2, 430 * height), Color.White);
+                        painter.Draw(storage.Cards[52],
+                            new Vector2(480 * width + storage.Cards[0].Width * 3, 430 * height), Color.White);
+                        painter.Draw(storage.Cards[52],
+                            new Vector2(480 * width + storage.Cards[0].Width * 4, 430 * height), Color.White);
                     }
                     else
                     {
-                        painter.Draw(storage.GreyUI[5], new Rectangle(450, 100, 400, 400), Color.White);
-                        painter.Draw(storage.Cards[(int)currentStatPlayer.Stat.Card1], new Vector2(480, 390), Color.White);
-                        painter.Draw(storage.Cards[(int)currentStatPlayer.Stat.Card2], new Vector2(480 + storage.Cards[0].Width, 390), Color.White);
-                        painter.Draw(storage.Cards[(int)currentStatPlayer.Stat.Card3], new Vector2(480 + storage.Cards[0].Width * 2, 390), Color.White);
-                        painter.Draw(storage.Cards[(int)currentStatPlayer.Stat.Card4], new Vector2(480 + storage.Cards[0].Width * 3, 390), Color.White);
-                        painter.Draw(storage.Cards[(int)currentStatPlayer.Stat.Card5], new Vector2(480 + storage.Cards[0].Width * 4, 390), Color.White);
+                        painter.Draw(storage.GreyUI[5],
+                            new Rectangle((int)(450 * width), (int)(100 * height),
+                            (int)(400 * width), (int)(400 * height)), Color.White);
+                        painter.Draw(storage.Cards[(int)currentStatPlayer.Stat.Card1],
+                            new Vector2(480 * width, 390 * height), Color.White);
+                        painter.Draw(storage.Cards[(int)currentStatPlayer.Stat.Card2],
+                            new Vector2(480 * width + storage.Cards[0].Width, 390 * height), Color.White);
+                        painter.Draw(storage.Cards[(int)currentStatPlayer.Stat.Card3],
+                            new Vector2(480 * width + storage.Cards[0].Width * 2, 390 * height), Color.White);
+                        painter.Draw(storage.Cards[(int)currentStatPlayer.Stat.Card4],
+                            new Vector2(480 * width + storage.Cards[0].Width * 3, 390 * height), Color.White);
+                        painter.Draw(storage.Cards[(int)currentStatPlayer.Stat.Card5],
+                            new Vector2(480 * width + storage.Cards[0].Width * 4, 390 * height), Color.White);
                     }
 
                     closeStatsPanelButton.Draw(i_gameTime, painter);
-                    painter.DrawString(storage.Fonts[0], currentStatPlayer.Name + " Stats:", new Vector2(550, 110), Color.Black);
-                    painter.DrawString(storage.Fonts[0], "Money: " + currentStatPlayer.Stat.Money.ToString(), new Vector2(480, 150), Color.Black);
-                    painter.DrawString(storage.Fonts[0], "Hands Play: " + currentStatPlayer.Stat.NumberOfHandsPlay.ToString(), new Vector2(480, 190), Color.Black);
-                    painter.DrawString(storage.Fonts[0], "Hands Won: " + currentStatPlayer.Stat.NumberOfHandsWon.ToString(), new Vector2(480, 230), Color.Black);
-                    painter.DrawString(storage.Fonts[0], "Victory Percentage: " + (int)(currentStatPlayer.Stat.VictoryPercentage * 100) + "%", new Vector2(480, 270), Color.Black);
-                    painter.DrawString(storage.Fonts[0], "Biggest Pot: " + currentStatPlayer.Stat.BiggestPot.ToString(), new Vector2(480, 310), Color.Black);
-                    painter.DrawString(storage.Fonts[0], "Best Hand Played: ", new Vector2(480, 350), Color.Black);
+                    painter.DrawString(storage.Fonts[0], currentStatPlayer.Name + " Stats:",
+                        new Vector2(550 * width, 110 * height), Color.Black);
+                    painter.DrawString(storage.Fonts[0], "Money: " + currentStatPlayer.Stat.Money.ToString(),
+                        new Vector2(480 * width, 150 * height), Color.Black);
+                    painter.DrawString(storage.Fonts[0], "Hands Play: " + currentStatPlayer.Stat.NumberOfHandsPlay.ToString(),
+                        new Vector2(480 * width, 190 * height), Color.Black);
+                    painter.DrawString(storage.Fonts[0], "Hands Won: " + currentStatPlayer.Stat.NumberOfHandsWon.ToString(),
+                        new Vector2(480 * width, 230 * height), Color.Black);
+                    painter.DrawString(storage.Fonts[0], "Victory Percentage: " + (int)(currentStatPlayer.Stat.VictoryPercentage * 100) + "%",
+                        new Vector2(480 * width, 270 * height), Color.Black);
+                    painter.DrawString(storage.Fonts[0], "Biggest Pot: " + currentStatPlayer.Stat.BiggestPot.ToString(),
+                        new Vector2(480 * width, 310 * height), Color.Black);
+                    painter.DrawString(storage.Fonts[0], "Best Hand Played: ",
+                        new Vector2(480 * width, 350 * height), Color.Black);
                 }
             }
-            catch (Exception e)
-            {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(Logger.Path, true))
-                {
-                    file.WriteLine("PokerTable.drawStatsPanel " + e.Message);
-                }
-            }
+            catch (Exception) { }
         }
 
         private void drawHandsRating(GameTime i_gameTime)
@@ -1296,17 +1309,12 @@ namespace Casino
             {
                 if (isHandsRatingVisible)
                 {
-                    painter.Draw(storage.HandsRating, new Rectangle(135, 65, 1000, 490), Color.White);
+                    painter.Draw(storage.HandsRating, new Rectangle((int)(135 * width), (int)(65 * height),
+                        (int)(1000 * width), (int)(490 * height)), Color.White);
                     closeHandsRatingButton.Draw(i_gameTime, painter);
                 }
             }
-            catch (Exception e)
-            {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(Logger.Path, true))
-                {
-                    file.WriteLine("PokerTable.frawHandsRating " + e.Message);
-                }
-            }
+            catch (Exception) { }
         }
 
         private void drawEnterMoneyPanel(GameTime i_gameTime)
@@ -1316,14 +1324,19 @@ namespace Casino
                 if (isEnterMoneyPanelVisible)
                 {
                     painter.Draw(storage.GreenUI[5], enterMoneyRectangle, Color.White);
-                    painter.DrawString(storage.Fonts[0], "Buy Into Game", new Vector2(enterMoneyRectangle.X + 100, enterMoneyRectangle.Y + 20), Color.Black);
-                    painter.DrawString(storage.Fonts[0], "Min: 200K", new Vector2(enterMoneyRectangle.X + 30, enterMoneyRectangle.Y + 60), Color.Black);
-                    painter.DrawString(storage.Fonts[0], "Max: 1M", new Vector2(enterMoneyRectangle.X + 250, enterMoneyRectangle.Y + 60), Color.Black);
+                    painter.DrawString(storage.Fonts[0], "Buy Into Game", 
+                        new Vector2(enterMoneyRectangle.X + 100 * width, enterMoneyRectangle.Y + 20 * height), Color.Black);
+                    painter.DrawString(storage.Fonts[0], "Min: 200K", 
+                        new Vector2(enterMoneyRectangle.X + 30 * width, enterMoneyRectangle.Y + 60 * height), Color.Black);
+                    painter.DrawString(storage.Fonts[0], "Max: 1M", 
+                        new Vector2(enterMoneyRectangle.X + 250 * width, enterMoneyRectangle.Y + 60 * height), Color.Black);
                     enterMoneyRaiseDown.Draw(i_gameTime, painter);
                     enterMoneyTextbox.Draw(painter);
                     enterMoneyRaiseUp.Draw(i_gameTime, painter);
-                    painter.DrawString(storage.Fonts[0], "Your Account Balance:", new Vector2(enterMoneyRectangle.X + 40, enterMoneyRectangle.Y + 200), Color.Black);
-                    painter.DrawString(storage.Fonts[0], myPlayer.Stat.Money.ToString(), new Vector2(enterMoneyRectangle.X + 140, enterMoneyRectangle.Y + 240), Color.Black);
+                    painter.DrawString(storage.Fonts[0], "Your Account Balance:", 
+                        new Vector2(enterMoneyRectangle.X + 40 * width, enterMoneyRectangle.Y + 200 * height), Color.Black);
+                    painter.DrawString(storage.Fonts[0], myPlayer.Stat.Money.ToString(), 
+                        new Vector2(enterMoneyRectangle.X + 140 * width, enterMoneyRectangle.Y + 240 * height), Color.Black);
                     enterMoneyConfirm.Draw(i_gameTime, painter);
                     enterMoneyExit.Draw(i_gameTime, painter);
                 }
@@ -1554,13 +1567,7 @@ namespace Casino
                     }
                 }
             }
-            catch (Exception e)
-            {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(Logger.Path, true))
-                {
-                    file.WriteLine("PokerTable.drawPlayerCard " + e.Message);
-                }
-            }
+            catch (Exception) { }
         }
         private void darwDealerButton()
         {
@@ -1571,58 +1578,52 @@ namespace Casino
                 {
                     case 0:
                         {
-                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[0].X - width * 100), (int)playersLocations[0].Y + 60, 25 * (int)width, 25 * (int)height), Color.White);
+                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[0].X - width * 100), (int)(playersLocations[0].Y + 60 * height), 25 * (int)width, 25 * (int)height), Color.White);
                             break;
                         }
                     case 1:
                         {
-                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[1].X - width * 100), (int)playersLocations[1].Y + 60, 25 * (int)width, 25 * (int)height), Color.White);
+                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[1].X - width * 100), (int)(playersLocations[1].Y + 60 * height), 25 * (int)width, 25 * (int)height), Color.White);
                             break;
                         }
                     case 2:
                         {
-                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[2].X - width * 100), (int)playersLocations[2].Y + 60, 25 * (int)width, 25 * (int)height), Color.White);
+                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[2].X - width * 100), (int)(playersLocations[2].Y + 60 * height), 25 * (int)width, 25 * (int)height), Color.White);
                             break;
                         }
                     case 3:
                         {
-                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[3].X + 70), (int)(playersLocations[3].Y - 110 * height), 20 * (int)width, 20 * (int)height), Color.White);
+                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[3].X + 70 * width), (int)(playersLocations[3].Y - 110 * height), 20 * (int)width, 20 * (int)height), Color.White);
                             break;
                         }
                     case 4:
                         {
-                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[4].X + 70), (int)(playersLocations[4].Y - 110 * height), 20 * (int)width, 20 * (int)height), Color.White);
+                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[4].X + 70 * width), (int)(playersLocations[4].Y - 110 * height), 20 * (int)width, 20 * (int)height), Color.White);
                             break;
                         }
                     case 5:
                         {
-                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[5].X + 70), (int)(playersLocations[5].Y - 110 * height), 20 * (int)width, 20 * (int)height), Color.White);
+                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[5].X + 70 * width), (int)(playersLocations[5].Y - 110 * height), 20 * (int)width, 20 * (int)height), Color.White);
                             break;
                         }
                     case 6:
                         {
-                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[6].X + width * 100), (int)playersLocations[6].Y + 60, 25 * (int)width, 25 * (int)height), Color.White);
+                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[6].X + width * 100), (int)(playersLocations[6].Y + 60 * height), 25 * (int)width, 25 * (int)height), Color.White);
                             break;
                         }
                     case 7:
                         {
-                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[7].X + width * 100), (int)playersLocations[7].Y + 60, 25 * (int)width, 25 * (int)height), Color.White);
+                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[7].X + width * 100), (int)(playersLocations[7].Y + 60 * height), 25 * (int)width, 25 * (int)height), Color.White);
                             break;
                         }
                     case 8:
                         {
-                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[8].X + width * 100), (int)playersLocations[8].Y + 60, 25 * (int)width, 25 * (int)height), Color.White);
+                            painter.Draw(storage.PokerChips[0], new Rectangle((int)(playersLocations[8].X + width * 100), (int)(playersLocations[8].Y + 60 * height), 25 * (int)width, 25 * (int)height), Color.White);
                             break;
                         }
                 }
             }
-            catch (Exception e)
-            {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(Logger.Path, true))
-                {
-                    file.WriteLine("PokerTable.drawDealerButton " + e.Message);
-                }
-            }
+            catch (Exception) { }
         }
 
         private void drawActionBar(int i_PlayerIndex, eAction eAction)
@@ -1653,7 +1654,7 @@ namespace Casino
                                         table.CurrentRound.ActivePlayersIndex[0].CurrentRoundBet.ToString() + "$",
                                         new Vector2((int)(playersLocations[0].X - width * 75),
                                         (int)playersLocations[0].Y - 10 * height),
-                                        i_PlayerIndex == table.CurrentRound.currentBettingRound.CurrentPlayerIndex ?  Color.Gold : Color.White);
+                                        i_PlayerIndex == table.CurrentRound.currentBettingRound.CurrentPlayerIndex ? Color.Gold : Color.White);
                                 }
                             }
 
@@ -1672,9 +1673,9 @@ namespace Casino
                                 painter.Draw(storage.PokerSigns[(int)eAction], new Rectangle((int)(playersLocations[1].X - width * 100), (int)playersLocations[1].Y, 20 * (int)width, 20 * (int)height), Color.White);
                                 if (eAction != eAction.Fold && eAction != eAction.Check)
                                 {
-                                    painter.DrawString(storage.Fonts[0], 
-                                        table.CurrentRound.ActivePlayersIndex[1].CurrentRoundBet.ToString() + "$", 
-                                        new Vector2((int)(playersLocations[1].X - width * 75), 
+                                    painter.DrawString(storage.Fonts[0],
+                                        table.CurrentRound.ActivePlayersIndex[1].CurrentRoundBet.ToString() + "$",
+                                        new Vector2((int)(playersLocations[1].X - width * 75),
                                         (int)playersLocations[1].Y - 10 * height),
                                         i_PlayerIndex == table.CurrentRound.currentBettingRound.CurrentPlayerIndex ? Color.Gold : Color.White);
                                 }
@@ -1693,9 +1694,9 @@ namespace Casino
                                 painter.Draw(storage.PokerSigns[(int)eAction], new Rectangle((int)(playersLocations[2].X - width * 100), (int)playersLocations[2].Y, 20 * (int)width, 20 * (int)height), Color.White);
                                 if (eAction != eAction.Fold && eAction != eAction.Check)
                                 {
-                                    painter.DrawString(storage.Fonts[0], 
-                                        table.CurrentRound.ActivePlayersIndex[2].CurrentRoundBet.ToString() + "$", 
-                                        new Vector2((int)(playersLocations[2].X - width * 75), 
+                                    painter.DrawString(storage.Fonts[0],
+                                        table.CurrentRound.ActivePlayersIndex[2].CurrentRoundBet.ToString() + "$",
+                                        new Vector2((int)(playersLocations[2].X - width * 75),
                                         (int)playersLocations[2].Y - 10 * height),
                                         i_PlayerIndex == table.CurrentRound.currentBettingRound.CurrentPlayerIndex ? Color.Gold : Color.White);
                                 }
@@ -1714,9 +1715,9 @@ namespace Casino
                                 painter.Draw(storage.PokerSigns[(int)eAction], new Rectangle((int)(playersLocations[3].X), (int)(playersLocations[3].Y - 90 * height), 20 * (int)width, 20 * (int)height), Color.White);
                                 if (eAction != eAction.Fold && eAction != eAction.Check)
                                 {
-                                    painter.DrawString(storage.Fonts[0], 
-                                        table.CurrentRound.ActivePlayersIndex[3].CurrentRoundBet.ToString() + "$", 
-                                        new Vector2((int)(playersLocations[3].X + width * 25), 
+                                    painter.DrawString(storage.Fonts[0],
+                                        table.CurrentRound.ActivePlayersIndex[3].CurrentRoundBet.ToString() + "$",
+                                        new Vector2((int)(playersLocations[3].X + width * 25),
                                         (int)playersLocations[3].Y - 100 * height),
                                         i_PlayerIndex == table.CurrentRound.currentBettingRound.CurrentPlayerIndex ? Color.Gold : Color.White);
                                 }
@@ -1735,9 +1736,9 @@ namespace Casino
                                 painter.Draw(storage.PokerSigns[(int)eAction], new Rectangle((int)(playersLocations[4].X), (int)(playersLocations[4].Y - 90 * height), 20 * (int)width, 20 * (int)height), Color.White);
                                 if (eAction != eAction.Fold && eAction != eAction.Check)
                                 {
-                                    painter.DrawString(storage.Fonts[0], 
-                                        table.CurrentRound.ActivePlayersIndex[4].CurrentRoundBet.ToString() + "$", 
-                                        new Vector2((int)(playersLocations[4].X + width * 25), 
+                                    painter.DrawString(storage.Fonts[0],
+                                        table.CurrentRound.ActivePlayersIndex[4].CurrentRoundBet.ToString() + "$",
+                                        new Vector2((int)(playersLocations[4].X + width * 25),
                                         (int)playersLocations[4].Y - 100 * height),
                                         i_PlayerIndex == table.CurrentRound.currentBettingRound.CurrentPlayerIndex ? Color.Gold : Color.White);
                                 }
@@ -1756,9 +1757,9 @@ namespace Casino
                                 painter.Draw(storage.PokerSigns[(int)eAction], new Rectangle((int)(playersLocations[5].X), (int)(playersLocations[5].Y - 90 * height), 20 * (int)width, 20 * (int)height), Color.White);
                                 if (eAction != eAction.Fold && eAction != eAction.Check)
                                 {
-                                    painter.DrawString(storage.Fonts[0], 
-                                        table.CurrentRound.ActivePlayersIndex[5].CurrentRoundBet.ToString() + "$", 
-                                        new Vector2((int)(playersLocations[5].X + width * 25), 
+                                    painter.DrawString(storage.Fonts[0],
+                                        table.CurrentRound.ActivePlayersIndex[5].CurrentRoundBet.ToString() + "$",
+                                        new Vector2((int)(playersLocations[5].X + width * 25),
                                         (int)playersLocations[5].Y - 100 * height),
                                         i_PlayerIndex == table.CurrentRound.currentBettingRound.CurrentPlayerIndex ? Color.Gold : Color.White);
                                 }
@@ -1777,9 +1778,9 @@ namespace Casino
                                 painter.Draw(storage.PokerSigns[(int)eAction], new Rectangle((int)(playersLocations[6].X + width * 100), (int)playersLocations[6].Y, 20 * (int)width, 20 * (int)height), Color.White);
                                 if (eAction != eAction.Fold && eAction != eAction.Check)
                                 {
-                                    painter.DrawString(storage.Fonts[0], 
-                                        table.CurrentRound.ActivePlayersIndex[6].CurrentRoundBet.ToString() + "$", 
-                                        new Vector2((int)(playersLocations[6].X + width * 125), 
+                                    painter.DrawString(storage.Fonts[0],
+                                        table.CurrentRound.ActivePlayersIndex[6].CurrentRoundBet.ToString() + "$",
+                                        new Vector2((int)(playersLocations[6].X + width * 125),
                                         (int)playersLocations[6].Y - 10 * height),
                                         i_PlayerIndex == table.CurrentRound.currentBettingRound.CurrentPlayerIndex ? Color.Gold : Color.White);
                                 }
@@ -1798,9 +1799,9 @@ namespace Casino
                                 painter.Draw(storage.PokerSigns[(int)eAction], new Rectangle((int)(playersLocations[7].X + width * 100), (int)playersLocations[7].Y, 20 * (int)width, 20 * (int)height), Color.White);
                                 if (eAction != eAction.Fold && eAction != eAction.Check)
                                 {
-                                    painter.DrawString(storage.Fonts[0], 
-                                        table.CurrentRound.ActivePlayersIndex[7].CurrentRoundBet.ToString() + "$", 
-                                        new Vector2((int)(playersLocations[7].X + width * 125), 
+                                    painter.DrawString(storage.Fonts[0],
+                                        table.CurrentRound.ActivePlayersIndex[7].CurrentRoundBet.ToString() + "$",
+                                        new Vector2((int)(playersLocations[7].X + width * 125),
                                         (int)playersLocations[7].Y - 10 * height),
                                        i_PlayerIndex == table.CurrentRound.currentBettingRound.CurrentPlayerIndex ? Color.Gold : Color.White);
                                 }
@@ -1819,9 +1820,9 @@ namespace Casino
                                 painter.Draw(storage.PokerSigns[(int)eAction], new Rectangle((int)(playersLocations[8].X + width * 100), (int)playersLocations[8].Y, 20 * (int)width, 20 * (int)height), Color.White);
                                 if (eAction != eAction.Fold && eAction != eAction.Check)
                                 {
-                                    painter.DrawString(storage.Fonts[0], 
-                                        table.CurrentRound.ActivePlayersIndex[8].CurrentRoundBet.ToString() + "$", 
-                                        new Vector2((int)(playersLocations[8].X + width * 125), 
+                                    painter.DrawString(storage.Fonts[0],
+                                        table.CurrentRound.ActivePlayersIndex[8].CurrentRoundBet.ToString() + "$",
+                                        new Vector2((int)(playersLocations[8].X + width * 125),
                                         (int)playersLocations[8].Y - 10 * height),
                                         i_PlayerIndex == table.CurrentRound.currentBettingRound.CurrentPlayerIndex ? Color.Gold : Color.White);
                                 }
@@ -1830,13 +1831,7 @@ namespace Casino
                         }
                 }
             }
-            catch (Exception e)
-            {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(Logger.Path, true))
-                {
-                    file.WriteLine("PokerTable.drawActionBar " + e.Message);
-                }
-            }
+            catch (Exception) { }
         }
 
         private int convertCardsToint(Card i_Card)
@@ -1859,13 +1854,8 @@ namespace Casino
                 }
                 return count;
             }
-            catch (Exception e)
-            {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(Logger.Path, true))
-                {
-                    file.WriteLine("PokerTable.convertCardsToint " + e.Message);
-                }
-                throw e;
+            catch (Exception) {
+                throw;
             }
         }
         private void PaintPlayersAndSits()
@@ -1882,7 +1872,7 @@ namespace Casino
                             {
                                 sitButtons[i].IsVisible = false;
                                 sitButtons[i].IsEnabled = false;
-                                painter.Draw(storage.PlayerFaces[table.PlayersInTable[i].Figure][0], new Rectangle((int)(playersLocations[i].X * width), (int)(playersLocations[i].Y - 60 * height), (int)(75 * width), (int)(70 * height)), Color.White);
+                                painter.Draw(storage.PlayerFaces[table.PlayersInTable[i].Figure][0], new Rectangle((int)(playersLocations[i].X), (int)(playersLocations[i].Y - 60 * height), (int)(75 * width), (int)(70 * height)), Color.White);
                                 if (table.CurrentRound != null && i == table.CurrentRound.currentBettingRound.CurrentPlayerIndex)
                                 {
                                     painter.DrawString(storage.Fonts[0], table.PlayersInTable[i].Name, new Vector2(playersLocations[i].X + (int)(75 * width), playersLocations[i].Y - 50 * height), Color.Gold);
@@ -1923,13 +1913,7 @@ namespace Casino
                     }
                 }
             }
-            catch (Exception e)
-            {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(Logger.Path, true))
-                {
-                    file.WriteLine("PokerTable.PaintPlayersAndSits " + e.Message);
-                }
-            }
+            catch (Exception) { }
         }
     }
 }

@@ -13,7 +13,7 @@ namespace Casino
 {
     public class Player
     {
-        private ContentManager contentManager;
+        private readonly ContentManager contentManager;
         private SpriteBatch painter;
 
         public SpritesStorage storage;
@@ -80,7 +80,7 @@ namespace Casino
             FurnitureInstance furniture;
             if (i_input == Keys.Right)
             {
-                if ((furniture = checkIfFurnitureOnTheWay(position.X + playerSpeed * dt, position.Y, Direction.Right, i_lock)) == null)
+                if ((furniture = checkIfFurnitureOnTheWay(position.X + playerSpeed * dt, position.Y, Direction.Right)) == null)
                 {
                     position.X += playerSpeed * dt;
                 }
@@ -94,7 +94,7 @@ namespace Casino
 
             else if (i_input == Keys.Left)
             {
-                if ((furniture = checkIfFurnitureOnTheWay(position.X - playerSpeed * dt, position.Y, Direction.Left, i_lock)) == null)
+                if ((furniture = checkIfFurnitureOnTheWay(position.X - playerSpeed * dt, position.Y, Direction.Left)) == null)
                 {
                     position.X -= playerSpeed * dt;
                 }
@@ -108,7 +108,7 @@ namespace Casino
 
             else if (i_input == Keys.Up)
             {
-                if ((furniture = checkIfFurnitureOnTheWay(position.X, position.Y - playerSpeed * dt, Direction.Up, i_lock)) == null)
+                if ((furniture = checkIfFurnitureOnTheWay(position.X, position.Y - playerSpeed * dt, Direction.Up)) == null)
                 {
                     position.Y -= playerSpeed * dt;
                 }
@@ -120,7 +120,7 @@ namespace Casino
 
             else if (i_input == Keys.Down)
             {
-                if ((furniture = checkIfFurnitureOnTheWay(position.X, position.Y + playerSpeed * dt, Direction.Down, i_lock)) == null)
+                if ((furniture = checkIfFurnitureOnTheWay(position.X, position.Y + playerSpeed * dt, Direction.Down)) == null)
                 {
                     position.Y += playerSpeed * dt;
                 }
@@ -175,7 +175,7 @@ namespace Casino
             return isPLayerFootHeard;
         }
 
-        private FurnitureInstance checkIfFurnitureOnTheWay(float i_RelevantPositionX, float i_RelevantPositionY, Direction i_Direction, object i_lock)
+        private FurnitureInstance checkIfFurnitureOnTheWay(float i_RelevantPositionX, float i_RelevantPositionY, Direction i_Direction)
         {
             FurnitureInstance furniture = new FurnitureInstance();
             foreach (FurnitureInstance Furniture in furnituresList)
@@ -197,15 +197,11 @@ namespace Casino
         private FurnitureInstance checkIfSpecificFurnitureOnTheWay(FurnitureInstance i_Furniture, float i_RelevantPositionX, float i_RelevantPositionY, Direction i_Direction)
         {
             FurnitureInstance furniture = new FurnitureInstance();
-            int leftSide;
-            int upSide;
-            int rightSide;
-            int downSide;
 
             int playerWidth = Game1.listOfSprites[(int)playerSkin].playerWidth;
             int playerHeigth = Game1.listOfSprites[(int)playerSkin].playerHeight;
 
-            calculateFurnitureSize(i_Furniture, out leftSide, out rightSide, out upSide, out downSide);
+            calculateFurnitureSize(i_Furniture, out int leftSide, out int rightSide, out int upSide, out int downSide);
 
             furniture.CurrentXPos = leftSide;
             furniture.CurrentYPos = upSide;
@@ -336,11 +332,6 @@ namespace Casino
                     }
             }
             return null;
-        }
-
-        private bool twoPartFurniture(int type)
-        {
-            return type == 0 || type == 4 || (type >= 9 && type <= 12);
         }
 
         public void calculateFurnitureSize(FurnitureInstance furniture, out int leftSide, out int rightSide, out int upSide, out int downSide)
@@ -550,29 +541,10 @@ namespace Casino
             {
                 drawingPosition.X = position.X - 47;
                 drawingPosition.Y = position.Y - 32;
-                //animation.DrawAnimation(drawingPosition, direction, 75, 100);
 
                 if (DateTime.Now.Subtract(LastActionTime).TotalSeconds <= 3)
                 {
                     animation.DrawAnimation(drawingPosition, LastMessage, direction);
-                    //Vector2 bubblePosition = new Vector2(-210, -240) + drawingPosition; // acording to defualt bubble size(300,300)
-
-                    ////if(LastMessage.Length < 20)
-                    //if (lengthOfLastMessage(LastMessage) < 20)
-                    //{
-                    //    painter.Draw(storage.SpeachBubble, new Rectangle((int)bubblePosition.X + 80, (int)bubblePosition.Y + 80, 200, 200), Color.White);
-                    //    painter.DrawString(storage.Fonts[2], createBubbleString(LastMessage, 1), new Vector2(120, 115) + bubblePosition, Color.Black);
-                    //}
-                    //else if (lengthOfLastMessage(LastMessage) < 50)
-                    //{
-                    //    painter.Draw(storage.SpeachBubble, new Rectangle((int)bubblePosition.X + 80, (int)bubblePosition.Y + 80, 200, 200), Color.White);
-                    //    painter.DrawString(storage.Fonts[3], createBubbleString(LastMessage, 2), new Vector2(120, 115) + bubblePosition, Color.Black);
-                    //}
-                    //else
-                    //{
-                    //    painter.Draw(storage.SpeachBubble, new Rectangle((int)bubblePosition.X + 80, (int)bubblePosition.Y + 80, 200, 200), Color.White);
-                    //    painter.DrawString(storage.Fonts[4], createBubbleString(LastMessage, 3), new Vector2(110, 105) + bubblePosition, Color.Black);
-                    //}
                 }
                 else
                 {
@@ -581,62 +553,6 @@ namespace Casino
             }
             IsUpdate = false;
         }
-
-        //private int lengthOfLastMessage(string i_lastMessage)
-        //{
-        //    int lengthOfLastMessage = i_lastMessage.Length;
-        //    int countBigSymbols = 0;
-
-        //    foreach (char letter in i_lastMessage)
-        //    {
-        //        if (letter == '@' || letter == '#' || letter == '$' || letter == '%' || letter == '&')
-        //        {
-        //            countBigSymbols++;
-        //        }
-        //    }
-
-        //    lengthOfLastMessage += countBigSymbols;
-
-        //    return lengthOfLastMessage;
-        //}
-
-        //private string createBubbleString(string i_message, int i_fontSize)
-        //{
-        //    StringBuilder bubbleString = new StringBuilder();
-
-        //    string[] words = i_message.Split(' ');
-
-        //    int lineCounter = 0;
-        //    foreach (string word in words)
-        //    {
-        //        bubbleString.Append(word);
-        //        lineCounter += word.Length;
-
-        //        if (lineCounter > 7 && i_fontSize == 1)
-        //        {
-        //            bubbleString.Append("\n");
-        //            lineCounter = 0;
-        //        }
-        //        else if (lineCounter > 9 && i_fontSize == 2)
-        //        {
-        //            bubbleString.Append("\n");
-        //            lineCounter = 0;
-        //        }
-        //        else if (lineCounter > 15 && i_fontSize == 3)
-        //        {
-        //            bubbleString.Append("\n");
-        //            lineCounter = 0;
-        //        }
-        //        else
-        //        {
-        //            lineCounter++;
-        //            bubbleString.Append(' ');
-        //        }
-
-        //    }
-
-        //    return bubbleString.ToString();
-        //}
 
         public void UpdatePlayerSkin(PlayerSkin i_PlayerSkin)
         {

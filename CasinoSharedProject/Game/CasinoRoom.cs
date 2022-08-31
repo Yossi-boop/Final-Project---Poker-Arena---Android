@@ -129,9 +129,10 @@ namespace Casino
                 instancesList.AddRange(furnituresList);
 
                 User user = await gameManager.server.GetUserDetails(gameManager.mainPlayerEmail);
-                mainPlayer = new Player(contentManager, Game1.UserScreenWidth, Game1.UserScreenHeight,
-                  (PlayerSkin)user.Figure, storage, user.Name, gameManager.mainPlayerEmail,
-                  await gameManager.server.GetStats(gameManager.mainPlayerEmail), furnituresList)
+                mainPlayer = new Player(contentManager, Game1.PreferedScreenWidth, 
+                    Game1.PreferedScreenHeight, (PlayerSkin)user.Figure, storage, user.Name, 
+                    gameManager.mainPlayerEmail, await gameManager.server.GetStats(gameManager.mainPlayerEmail),
+                    furnituresList)
                 {
                     updateStuckChest = winningChest
                 };
@@ -139,7 +140,7 @@ namespace Casino
                 mainPlayer.Load(painter);
                 camera.Follow(mainPlayer);
 
-                casinoRoomNewChat = new NewChat(storage, 250, 250);
+                casinoRoomNewChat = new NewChat(storage, (int)(250 * width), (int)(250 * height));
                 casinoRoomNewChat.UpdateMessageList(await gameManager.server.getCasinoMessages("1234"));
                 casinoRoomNewChat.Load(painter);
 
@@ -695,7 +696,7 @@ namespace Casino
                 }
 
                 camera.Follow(mainPlayer);
-                updateExplainToPlayerHowToEnterPokerTable(i_gameTime, camera.Position, touchLocation);
+                updateExplainToPlayerHowToEnterPokerTable(i_gameTime, touchLocation);
                 updateUpperBar(i_gameTime, touchLocation);
                 updateChat(i_gameTime, touchLocation);
             }
@@ -707,7 +708,7 @@ namespace Casino
             try
             {
                 if (currentInput != Keys.Space)
-                    currentInput = joystick.Update(i_gameTime, i_cameraPosition, screenTouch);
+                    currentInput = joystick.Update(i_gameTime, i_cameraPosition, screenTouch, width, height);
             }
             catch (Exception) { }
         }
@@ -719,13 +720,13 @@ namespace Casino
             {
                 if (isWinningAmountOfChestPanelVisible)
                 {
-                    Vector2 panelLocation = new Vector2(-100, -100) + i_mainPosition;
-                    confirmWinButton.Position = new Vector2(80, 90) + panelLocation;
+                    Vector2 panelLocation = new Vector2(-100 * width, -100 * height) + i_mainPosition;
+                    confirmWinButton.Position = new Vector2(80 * width, 90 * height) + panelLocation;
                     confirmWinButton.Update(i_gameTime, (int)i_mainPosition.X - Game1.UserScreenWidth / 2, 
                         (int)i_mainPosition.Y - Game1.UserScreenHeight / 2, (int)screenTouch.X,
                         (int)screenTouch.Y);
                     winningAmountOfChestPanelRectangle = new Rectangle((int)panelLocation.X, 
-                        (int)panelLocation.Y, 350, 150);
+                        (int)panelLocation.Y, (int)(350 * width), (int)(150 * height));
                 }
             }
             catch (Exception)
@@ -746,17 +747,15 @@ namespace Casino
             catch (Exception) { }
         }
 
-        private void updateExplainToPlayerHowToEnterPokerTable(GameTime i_gameTime, Vector2 i_mainPosition,
-            Vector2 screenTouch)
+        private void updateExplainToPlayerHowToEnterPokerTable(GameTime i_gameTime, Vector2 screenTouch)
         {
             try
             {
                 if (explainButton.IsVisible && !casinoRoomNewChat.IsChatVisible)
                 {
-                    Vector2 buttonLocation = new Vector2(390, 154) + i_mainPosition;
-                    explainButton.Position = buttonLocation;
-                    explainButton.Update(i_gameTime, (int)i_mainPosition.X - Game1.UserScreenWidth / 2,
-                        (int)i_mainPosition.Y - Game1.UserScreenHeight / 2, (int)screenTouch.X,
+                    explainButton.Position = new Vector2(390 * width, 154 * height) + camera.Position;
+                    explainButton.Update(i_gameTime, (int)camera.Position.X - Game1.UserScreenWidth / 2,
+                        (int)camera.Position.Y - Game1.UserScreenHeight / 2, (int)screenTouch.X,
                         (int)screenTouch.Y);
                     speedOfChangedSpaceBar++;
                     speedOfChangedSpaceBar %= 20;
@@ -775,20 +774,21 @@ namespace Casino
             {
                 if (isEnterTablePanelVisible)
                 {
-                    Vector2 enterTablePanelLocation = new Vector2(-200, -200) + i_mainPosition;
+                    Vector2 enterTablePanelLocation = new Vector2(-200 * width, -200 * height) + i_mainPosition;
 
-                    confirmEnterTable.Position = new Vector2(50, 135) + enterTablePanelLocation;
+                    confirmEnterTable.Position = new Vector2(50 * width, 135 * height) + enterTablePanelLocation;
                     confirmEnterTable.Update(i_gameTime, (int)i_mainPosition.X - Game1.UserScreenWidth / 2, 
                         (int)i_mainPosition.Y - Game1.UserScreenHeight / 2, (int)screenTouch.X,
                 (int)screenTouch.Y);
                     exitEnterTable.Position = new Vector2((int)confirmEnterTable.Position.X + 
-                        confirmEnterTable.Rectangle.Width + 30, (int)confirmEnterTable.Position.Y);
+                        confirmEnterTable.Rectangle.Width + 30 * width, (int)confirmEnterTable.Position.Y);
                     exitEnterTable.Update(i_gameTime, (int)i_mainPosition.X - Game1.UserScreenWidth / 2, 
                         (int)i_mainPosition.Y - Game1.UserScreenHeight / 2, (int)screenTouch.X,
                 (int)screenTouch.Y);
 
-                    enterTablePanelRectangle = new Rectangle((int)enterTablePanelLocation.X - 25, 
-                        (int)enterTablePanelLocation.Y, 165 + (confirmEnterTable.Rectangle.Width * 2), 200);
+                    enterTablePanelRectangle = new Rectangle((int)(enterTablePanelLocation.X - 25 *width), 
+                        (int)enterTablePanelLocation.Y,
+                        (int)(165 * width) + (confirmEnterTable.Rectangle.Width * 2), (int)(200 * height));
                 }
             }
             catch (Exception)
@@ -872,26 +872,26 @@ namespace Casino
             {
                 if (isSettingPanelVisible)
                 {
-                    Vector2 settingPanelLocation = new Vector2(-200, -200) + i_mainPosition;
+                    Vector2 settingPanelLocation = new Vector2(-200 * width, -200 * height) + i_mainPosition;
 
-                    ninjaSkin.Position = new Vector2(5, 60) + settingPanelLocation;
+                    ninjaSkin.Position = new Vector2(5 * width, 60 * height) + settingPanelLocation;
                     ninjaSkin.Update(i_gameTime, (int)i_mainPosition.X - Game1.UserScreenWidth / 2,
                         (int)i_mainPosition.Y - Game1.UserScreenHeight / 2, (int)screenTouch.X,
                         (int)screenTouch.Y);
-                    jackSkin.Position = new Vector2((int)ninjaSkin.Position.X + ninjaSkin.Rectangle.Width + 30,
+                    jackSkin.Position = new Vector2((int)ninjaSkin.Position.X + ninjaSkin.Rectangle.Width + 30 * width,
                         (int)ninjaSkin.Position.Y);
                     jackSkin.Update(i_gameTime, (int)i_mainPosition.X - Game1.UserScreenWidth / 2,
                         (int)i_mainPosition.Y - Game1.UserScreenHeight / 2, (int)screenTouch.X,
                         (int)screenTouch.Y);
                     zombieSkin.Position = new Vector2(ninjaSkin.Position.X +
-                        (ninjaSkin.Rectangle.Width / 2) + 30, (int)jackSkin.Position.Y +
-                        jackSkin.Rectangle.Height + 30);
+                        (ninjaSkin.Rectangle.Width / 2) + 30 * width, (int)jackSkin.Position.Y +
+                        jackSkin.Rectangle.Height + 30 * height);
                     zombieSkin.Update(i_gameTime, (int)i_mainPosition.X - Game1.UserScreenWidth / 2,
                         (int)i_mainPosition.Y - Game1.UserScreenHeight / 2, (int)screenTouch.X,
                         (int)screenTouch.Y);
                     volumeOnOffButton.Position = new Vector2(ninjaSkin.Position.X +
-                        (ninjaSkin.Rectangle.Width / 2) + 30, zombieSkin.Position.Y +
-                        ninjaSkin.Rectangle.Height + 30);
+                        (ninjaSkin.Rectangle.Width / 2) + 30 * width, zombieSkin.Position.Y +
+                        ninjaSkin.Rectangle.Height + 30 * height);
                     volumeOnOffButton.Update(i_gameTime, (int)i_mainPosition.X - Game1.UserScreenWidth / 2,
                         (int)i_mainPosition.Y - Game1.UserScreenHeight / 2, (int)screenTouch.X,
                         (int)screenTouch.Y);
@@ -900,7 +900,9 @@ namespace Casino
                     else
                         volumeOnOffButton.Text = "Sound Off";
 
-                    settingPanelRectangle = new Rectangle((int)settingPanelLocation.X - 25, (int)settingPanelLocation.Y, 100 + (ninjaSkin.Rectangle.Width * 2), 100 + (ninjaSkin.Rectangle.Height * 2) + ninjaSkin.Rectangle.Height * 2);
+                    settingPanelRectangle = new Rectangle((int)(settingPanelLocation.X - 25 * width), 
+                        (int)settingPanelLocation.Y, (int)(100 * width) + (ninjaSkin.Rectangle.Width * 2), 
+                        (int)(100 * height) + (ninjaSkin.Rectangle.Height * 2) + ninjaSkin.Rectangle.Height * 2);
                 }
             }
             catch (Exception) { }
@@ -943,9 +945,9 @@ namespace Casino
         {
             try
             {
-                coinPosition = new Vector2(-35 * width, -(Game1.UserScreenHeight / 2 - 5) * height)
+                coinPosition = new Vector2(-35 * width, -(Game1.UserScreenHeight / 2 - 5))
                     + camera.Position;
-                exitButton.Position = new Vector2(485, -5) + coinPosition;
+                exitButton.Position = new Vector2(485 * width, -5 * height) + coinPosition;
                 exitButton.Update(i_gameTime, (int)camera.Position.X - Game1.UserScreenWidth / 2,
                     (int)camera.Position.Y - Game1.UserScreenHeight / 2, (int)screenTouch.X,
                     (int)screenTouch.Y);
@@ -1027,7 +1029,7 @@ namespace Casino
                     painter.DrawString(storage.Fonts[0],
                         string.Format(@"Enjoy Your {0} 
     New Coins!"
-    , winningChest.GoldAmount), new Vector2(winningAmountOfChestPanelRectangle.X + 80, winningAmountOfChestPanelRectangle.Y + 8), Color.Black);
+    , winningChest.GoldAmount), new Vector2(winningAmountOfChestPanelRectangle.X + 80 * width, winningAmountOfChestPanelRectangle.Y + 8 * height), Color.Black);
                     confirmWinButton.Draw(i_gameTime, painter);
                 }
             }
@@ -1093,15 +1095,16 @@ namespace Casino
                 {
                     painter.Draw(storage.GreenUI[5], enterTablePanelRectangle, Color.White);
                     painter.DrawString(storage.Fonts[0], "Are You Sure You Want To Enter?",
-                        new Vector2(enterTablePanelRectangle.X + 25, enterTablePanelRectangle.Y + 40),
+                        new Vector2(enterTablePanelRectangle.X + 25 * width, 
+                        enterTablePanelRectangle.Y + 40 * height),
                         Color.Black);
                     painter.DrawString(storage.Fonts[0], "Small Blind: " +
                         currentTable.GameSetting.SmallBlind.ToString(),
-                        new Vector2(enterTablePanelRectangle.X + 30, enterTablePanelRectangle.Y + 90),
+                        new Vector2(enterTablePanelRectangle.X + 30 * width, enterTablePanelRectangle.Y + 90 * height),
                         Color.Black);
                     painter.DrawString(storage.Fonts[0], "Big Blind: " +
                         currentTable.GameSetting.BigBlind.ToString(),
-                        new Vector2(enterTablePanelRectangle.X + 280, enterTablePanelRectangle.Y + 90),
+                        new Vector2(enterTablePanelRectangle.X + 280 * width, enterTablePanelRectangle.Y + 90 * height),
                         Color.Black);
                     confirmEnterTable.Draw(i_gameTime, painter);
                     exitEnterTable.Draw(i_gameTime, painter);
@@ -1117,7 +1120,7 @@ namespace Casino
                 if (isSettingPanelVisible)
                 {
                     painter.Draw(storage.GreenUI[5], settingPanelRectangle, Color.White);
-                    painter.DrawString(storage.Fonts[0], "Please Choose Your Skin:", new Vector2(55, 20) +
+                    painter.DrawString(storage.Fonts[0], "Please Choose Your Skin:", new Vector2(55 * width, 20 * height) +
                         new Vector2((int)settingPanelRectangle.X, (int)settingPanelRectangle.Y), Color.Black);
                     ninjaSkin.Draw(i_gameTime, painter);
                     jackSkin.Draw(i_gameTime, painter);
@@ -1135,7 +1138,7 @@ namespace Casino
                 coinAnimationManager.DrawAnimation(coinPosition, storage.Coins[0].Width,
                     storage.Coins[0].Height);
                 painter.DrawString(storage.Fonts[0], mainPlayer.stats.Money.ToString(),
-                    new Vector2(50, 10) + coinPosition, Color.Black);
+                    new Vector2(50 * width, 10 * height) + coinPosition, Color.Black);
                 if (!casinoRoomNewChat.IsChatVisible && casinoRoomNewChat.newMessagesAvialble)
                 {
                     casinoRoomNewChat.ChatButton.Draw(i_gameTime, painter, Color.Red);
@@ -1256,7 +1259,7 @@ namespace Casino
                     contentManager, "1234", i_tableID, i_playerEmail, i_playerName);
                 casinoTimer.Enabled = false;
                 initializeIntervalsForPokerTimer();
-                await gameManager.pokerTable.Load();
+                await gameManager.pokerTable.Load(currentTable);
                 gameManager.ScreenType = eScreenType.PokerTable;
             }
             catch (Exception) { }

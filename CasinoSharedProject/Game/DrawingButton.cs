@@ -39,7 +39,14 @@ namespace Casino
 
         public string Name { get; set; }
 
-        public Size Size { get; set; } = new Size(-1, -1);
+        public Size Size
+        {
+            get
+            {
+                return new Size(_texture.Width, _texture.Height);
+            }
+            set { }
+        }
 
         public Rectangle Rectangle
         {
@@ -69,6 +76,19 @@ namespace Casino
             _font = font;
 
             PenColour = Color.Black;
+
+            Size = new Size(-1, -1);
+        }
+
+        public DrawingButton(Texture2D texture, SpriteFont font, Size i_size)
+        {
+            _texture = texture;
+
+            _font = font;
+
+            PenColour = Color.Black;
+
+            Size = new Size(i_size.Width, i_size.Height);
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)

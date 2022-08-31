@@ -13,6 +13,9 @@ namespace Casino
         private readonly GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        public static int PreferedScreenWidth = 1280;
+        public static int PreferedScreenHeight = 720;
+
         public static int UserScreenWidth { get; set; }
         public static int UserScreenHeight { get; set; }
 
@@ -51,8 +54,8 @@ namespace Casino
         {
             // TODO: Add your initialization logic here
 
-            _graphics.PreferredBackBufferWidth = 1280;
-            _graphics.PreferredBackBufferHeight = 720;
+            _graphics.PreferredBackBufferWidth = PreferedScreenWidth;
+            _graphics.PreferredBackBufferHeight = PreferedScreenHeight;
             _graphics.ApplyChanges();
 
             UserScreenWidth = GraphicsDevice.PresentationParameters.Bounds.Width;

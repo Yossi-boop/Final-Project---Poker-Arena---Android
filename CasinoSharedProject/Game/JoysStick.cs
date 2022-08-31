@@ -28,15 +28,17 @@ namespace Casino
 
         public void Load()
         {
-            UpArrow = new DrawingButton(storage.GreenUI[1], storage.Fonts[1]);
-            DownArrow = new DrawingButton(storage.GreenUI[2], storage.Fonts[1]);
-            RightArrow = new DrawingButton(storage.GreenUI[3], storage.Fonts[1]);
-            LeftArrow = new DrawingButton(storage.GreenUI[4], storage.Fonts[1]);
+            UpArrow = new DrawingButton(storage.GreenUI[1], storage.Fonts[1], new MonoGame.Extended.Size(100,100));
+            DownArrow = new DrawingButton(storage.GreenUI[2], storage.Fonts[1], new MonoGame.Extended.Size(100, 100));
+            RightArrow = new DrawingButton(storage.GreenUI[3], storage.Fonts[1], new MonoGame.Extended.Size(100, 100));
+            LeftArrow = new DrawingButton(storage.GreenUI[4], storage.Fonts[1], new MonoGame.Extended.Size(100, 100));
         }
 
-        public Keys Update(GameTime i_gameTime, Vector2 i_mainPlayerPosition, Vector2 i_screenTouch)
+        public Keys Update(GameTime i_gameTime, Vector2 i_mainPlayerPosition, Vector2 i_screenTouch,
+            float i_realScreenWidth, float i_realScreenHeight)
         {
-            UpArrow.Position = new Vector2(-500, -300) + i_mainPlayerPosition;
+            UpArrow.Position = new Vector2(-500 * i_realScreenWidth, -300 * i_realScreenHeight) 
+                + i_mainPlayerPosition;
             UpArrow.Update(i_gameTime, (int)i_mainPlayerPosition.X - Game1.UserScreenWidth / 2
                 , (int)i_mainPlayerPosition.Y - Game1.UserScreenHeight / 2, (int)i_screenTouch.X,
                 (int)i_screenTouch.Y);
