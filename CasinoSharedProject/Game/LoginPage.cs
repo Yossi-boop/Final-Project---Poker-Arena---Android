@@ -211,8 +211,6 @@ namespace Casino
             };
 
             _guiSystem = new GuiSystem(viewportAdapter, guiRenderer) { ActiveScreen = loginScreen };
-
-            gameManager.showKeyBoard();
         }
 
         private void PassWordTextBox_OnFocus(object sender, EventArgs e)
