@@ -37,6 +37,7 @@ namespace Casino
         public delegate void KeyboardAction();
         public KeyboardAction showKeyBoard;
         public KeyboardAction hideKeyBoard;
+        public KeyboardAction OnKeyPress;
 
         public Game1()
         {

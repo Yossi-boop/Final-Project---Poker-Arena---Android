@@ -51,5 +51,10 @@ namespace Casino.Android
             var inputMethodManager = Application.GetSystemService(Context.InputMethodService) as InputMethodManager;
             inputMethodManager.HideSoftInputFromWindow(pView.WindowToken, HideSoftInputFlags.None);
         }
+
+        private string OnKeyPressActivity(object sender, View.KeyEventArgs e)
+        {
+            return e.KeyCode.ToString();
+        }
     }
 }

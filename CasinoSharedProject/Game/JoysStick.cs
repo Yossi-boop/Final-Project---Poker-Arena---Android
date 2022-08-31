@@ -28,29 +28,33 @@ namespace Casino
 
         public void Load()
         {
-            UpArrow = new DrawingButton(storage.GreenUI[1], storage.Fonts[1], new MonoGame.Extended.Size(100,100));
-            DownArrow = new DrawingButton(storage.GreenUI[2], storage.Fonts[1], new MonoGame.Extended.Size(100, 100));
-            RightArrow = new DrawingButton(storage.GreenUI[3], storage.Fonts[1], new MonoGame.Extended.Size(100, 100));
-            LeftArrow = new DrawingButton(storage.GreenUI[4], storage.Fonts[1], new MonoGame.Extended.Size(100, 100));
+            UpArrow = new DrawingButton(storage.GreenUI[1], storage.Fonts[1]);
+            UpArrow.Size = new MonoGame.Extended.Size(storage.GreenUI[1].Width * 2, storage.GreenUI[1].Height * 2);
+            DownArrow = new DrawingButton(storage.GreenUI[2], storage.Fonts[1]);
+            DownArrow.Size = new MonoGame.Extended.Size(storage.GreenUI[2].Width * 2, storage.GreenUI[2].Height * 2);
+            RightArrow = new DrawingButton(storage.GreenUI[3], storage.Fonts[1]);
+            RightArrow.Size = new MonoGame.Extended.Size(storage.GreenUI[3].Width * 2, storage.GreenUI[3].Height * 2);
+            LeftArrow = new DrawingButton(storage.GreenUI[4], storage.Fonts[1]);
+            LeftArrow.Size = new MonoGame.Extended.Size(storage.GreenUI[4].Width * 2, storage.GreenUI[4].Height * 2);
         }
 
         public Keys Update(GameTime i_gameTime, Vector2 i_mainPlayerPosition, Vector2 i_screenTouch,
             float i_realScreenWidth, float i_realScreenHeight)
         {
-            UpArrow.Position = new Vector2(-500 * i_realScreenWidth, -300 * i_realScreenHeight) 
+            UpArrow.Position = new Vector2(-500 * i_realScreenWidth, (-200 - UpArrow.Size.Height) * i_realScreenHeight) 
                 + i_mainPlayerPosition;
             UpArrow.Update(i_gameTime, (int)i_mainPlayerPosition.X - Game1.UserScreenWidth / 2
                 , (int)i_mainPlayerPosition.Y - Game1.UserScreenHeight / 2, (int)i_screenTouch.X,
                 (int)i_screenTouch.Y);
-            DownArrow.Position = new Vector2(0, 85) + UpArrow.Position;
+            DownArrow.Position = new Vector2(0, 165 + DownArrow.Size.Height) + UpArrow.Position;
             DownArrow.Update(i_gameTime, (int)i_mainPlayerPosition.X - Game1.UserScreenWidth / 2, 
                 (int)i_mainPlayerPosition.Y - Game1.UserScreenHeight / 2, (int)i_screenTouch.X,
                 (int)i_screenTouch.Y);
-            RightArrow.Position = new Vector2(40, 50) + UpArrow.Position;
+            RightArrow.Position = new Vector2(40 + RightArrow.Size.Width, 130) + UpArrow.Position;
             RightArrow.Update(i_gameTime, (int)i_mainPlayerPosition.X - Game1.UserScreenWidth / 2, 
                 (int)i_mainPlayerPosition.Y - Game1.UserScreenHeight / 2, (int)i_screenTouch.X,
                 (int)i_screenTouch.Y);
-            LeftArrow.Position = new Vector2(-50, 50) + UpArrow.Position;
+            LeftArrow.Position = new Vector2(-50 - LeftArrow.Size.Width, 130) + UpArrow.Position;
             LeftArrow.Update(i_gameTime, (int)i_mainPlayerPosition.X - Game1.UserScreenWidth / 2, 
                 (int)i_mainPlayerPosition.Y - Game1.UserScreenHeight / 2, (int)i_screenTouch.X,
                 (int)i_screenTouch.Y);
