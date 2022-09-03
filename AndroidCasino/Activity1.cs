@@ -32,6 +32,7 @@ namespace Casino.Android
 
             _game.showKeyBoard = ShowKeyboard;
             _game.hideKeyBoard = HideKeyboard;
+            _view.KeyPress += OnKeyPressActivity;
 
             SetContentView(_view);
             _game.Run();
@@ -52,9 +53,74 @@ namespace Casino.Android
             inputMethodManager.HideSoftInputFromWindow(pView.WindowToken, HideSoftInputFlags.None);
         }
 
-        private string OnKeyPressActivity(object sender, View.KeyEventArgs e)
+        private void OnKeyPressActivity(object sender, View.KeyEventArgs e)
         {
-            return e.KeyCode.ToString();
+            if(e.Event.Action.ToString().Equals("Down"))
+            {
+                if (e.KeyCode.ToString().Equals("ShiftLeft"))
+                {
+                    return;
+                }
+                else if(isKeyCodeNumber(e.KeyCode))
+                {
+                    _game.handleKeyboardInput(numberAndSymbolKeyCodeToString(e));
+                }
+                else if(e.KeyCode.ToString().Equals("Del"))
+                {
+                    _game.handleKeyboardInput(e.KeyCode.ToString());
+                }
+                else if (e.KeyCode.ToString().Equals("Period"))
+                {
+                    _game.handleKeyboardInput(".");
+                }
+                else
+                {
+                    _game.handleKeyboardInput(e.KeyCode.ToString());
+                }
+            }
+        }
+
+        private bool isKeyCodeNumber(Keycode i_keycode)
+        {
+            int intRepresentationOf0Key = 7;
+            int intRepresentationOf9Key = 16;
+            return (int)i_keycode >= intRepresentationOf0Key && (int)i_keycode <= intRepresentationOf9Key;
+        }
+
+        private string numberAndSymbolKeyCodeToString(View.KeyEventArgs e)
+        {
+            if(e.Event.IsShiftPressed)
+            {
+                switch((int)e.KeyCode - 7)
+                {
+                    case 1:
+                        return "!";
+                    case 2:
+                        return "@";
+                    case 3:
+                        return "#";
+                    case 4:
+                        return "$";
+                    case 5:
+                        return "%";
+                    case 6:
+                        return "^";
+                    case 7:
+                        return "&";
+                    case 8:
+                        return "*";
+                    case 9:
+                        return "(";
+                    case 0:
+                        return ")";
+                    default:
+                        return "";
+                }
+            }
+            else
+            {
+                return ((int)e.KeyCode - 7).ToString();
+            }
         }
     }
 }

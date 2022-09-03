@@ -11,6 +11,7 @@ namespace Casino
 {
     class NewChat
     {
+        private Game1 gameManager;
         private readonly SpritesStorage storage;
         private SpriteBatch painter;
 
@@ -34,6 +35,8 @@ namespace Casino
 
         public DrawingButton MoveChatToLastMessage { get; set; }
 
+        private Rectangle textBoxRectangle;
+
         private bool isChatVisible = false;
         public bool IsChatVisible 
         { get { return isChatVisible; } }
@@ -52,8 +55,9 @@ namespace Casino
         private string lastMessage;
         private bool isNewMessage = false;
 
-        public NewChat(SpritesStorage i_storage, int i_chatMessageWidth, int i_chatMessageHeight)
+        public NewChat(SpritesStorage i_storage, int i_chatMessageWidth, int i_chatMessageHeight, Game1 i_gameManager)
         {
+            gameManager = i_gameManager;
             storage = i_storage;
             ChatMessagesWidth = i_chatMessageWidth;
             ChatMessagesHeight = i_chatMessageHeight;
@@ -157,11 +161,25 @@ namespace Casino
         }
 
         public string Update(GameTime i_gameTime, Vector2 i_pos, 
-            Keys i_input, bool i_isCapsLockOn, bool i_isShiftOn)
+            Keys i_input, bool i_isCapsLockOn, bool i_isShiftOn, Vector2 i_touchLocation)
         {
             position.X = i_pos.X;
             position.Y = i_pos.Y;
             string returnMessage = lastMessage;
+
+            textBoxRectangle = new Rectangle((int)SendMessageButton.Position.X, 
+                (int)SendMessageButton.Position.Y - 20, ChatMessagesWidth, 20);
+
+            if (IsChatVisible)
+            {
+                Rectangle touchRectangle = new Rectangle((int)i_touchLocation.X + ((int)i_pos.X - Game1.UserScreenWidth / 2),
+                    (int)i_touchLocation.Y + ((int)i_pos.Y - Game1.UserScreenHeight / 2),
+                        1, 1);
+                if (touchRectangle.Intersects(textBoxRectangle))
+                {
+                    gameManager.showKeyBoard();
+                }
+            }
 
             if (startingMessage + requestedNumberOfVisibleMessages < ChatMessage.Count)
             {
@@ -367,7 +385,7 @@ namespace Casino
             {
                 Vector2 drawingTextStringSize;
 
-                painter.Draw(storage.GreenUI[6], new Rectangle((int)SendMessageButton.Position.X, (int)SendMessageButton.Position.Y - 20, ChatMessagesWidth, 20), Color.White);
+                painter.Draw(storage.GreenUI[6], textBoxRectangle, Color.White); //Textbox
                 painter.Draw(storage.GreenUI[5], new Rectangle((int)SendMessageButton.Position.X, (int)SendMessageButton.Position.Y - 20 - ChatMessagesHeight, ChatMessagesWidth, ChatMessagesHeight), Color.White);
 
                 drawingTextStringSize = storage.Fonts[1].MeasureString(messageText.ToString());
@@ -490,6 +508,21 @@ namespace Casino
             {
                 ChatData = i_chatData;
                 newMessagesAvialble = true;
+            }
+        }
+
+        public void handleKeyboardInput(string i_givenChar)
+        {
+            if (i_givenChar.Equals("Del"))
+            {
+                if (messageText.Length > 1)
+                {
+                    messageText.Remove(messageText.Length - 1, 1);
+                }
+            }
+            else
+            {
+                messageText.Append(i_givenChar.ToLower());
             }
         }
     }

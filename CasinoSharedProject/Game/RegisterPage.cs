@@ -7,7 +7,6 @@ using MonoGame.Extended;
 using MonoGame.Extended.BitmapFonts;
 using MonoGame.Extended.Gui;
 using MonoGame.Extended.Gui.Controls;
-using MonoGame.Extended.Gui.Markup;
 using MonoGame.Extended.ViewportAdapters;
 using Microsoft.Xna.Framework.Content;
 
@@ -23,6 +22,10 @@ namespace Casino
 
         private GuiSystem _guiSystem;
 
+        private bool isUserNameTextBoxFocused = false;
+        private bool isEmailTextBoxFocused = false;
+        private bool isPassWordTextBoxFocused = false;
+
         private Button signInButton;
         private Button cancelButton;
         private TextBox userNameTextBox;
@@ -32,7 +35,6 @@ namespace Casino
         public RegisterPage(Game1 i_gameManager, GraphicsDevice i_grapics, ContentManager i_contentManager)
         {
             gameManager = i_gameManager;
-            //_spriteBatch = i_spriteBatch;
             _graphics = i_grapics;
             contentManager = i_contentManager;
         }
@@ -142,7 +144,6 @@ namespace Casino
                 Orientation = Orientation.Vertical,
                 HorizontalAlignment = HorizontalAlignment.Centre,
                 VerticalAlignment = VerticalAlignment.Centre,
-                //AttachedProperties = { { DockPanel.DockProperty, Dock.Left } } ,
                 Items =
                 {
                     new StackPanel
@@ -195,12 +196,75 @@ namespace Casino
         public void Update(GameTime i_gameTime)
         {
             _guiSystem.Update(i_gameTime);
+            if(userNameTextBox.IsFocused && !isUserNameTextBoxFocused)
+            {
+                gameManager.showKeyBoard();
+            }
+            isUserNameTextBoxFocused = userNameTextBox.IsFocused;
+
+            if (emailTextBox.IsFocused && !isEmailTextBoxFocused)
+            {
+                gameManager.showKeyBoard();
+            }
+            isEmailTextBoxFocused = emailTextBox.IsFocused;
+
+            if (passWordTextBox.IsFocused && !isPassWordTextBoxFocused)
+            {
+                gameManager.showKeyBoard();
+            }
+            isPassWordTextBoxFocused = passWordTextBox.IsFocused;
         }
 
         public void Draw(GameTime i_gameTime)
         {
             _graphics.Clear(Color.Aqua);
             _guiSystem.Draw(i_gameTime);
+        }
+
+        public void handleKeyboardInput(string i_givenChar)
+        {
+            if (userNameTextBox.IsFocused)
+            {
+                if (i_givenChar.Equals("Del"))
+                {
+                    if (userNameTextBox.Text.Length > 1)
+                    {
+                        userNameTextBox.Text = userNameTextBox.Text.Remove(userNameTextBox.Text.Length - 1, 1);
+                    }
+                }
+                else
+                {
+                    userNameTextBox.Text += i_givenChar.ToLower();
+                }
+            }
+            else if (emailTextBox.IsFocused)
+            {
+                if (i_givenChar.Equals("Del"))
+                {
+                    if (emailTextBox.Text.Length > 1)
+                    {
+                        emailTextBox.Text = emailTextBox.Text.Remove(emailTextBox.Text.Length - 1, 1);
+                    }
+                }
+                else
+                {
+                    emailTextBox.Text += i_givenChar.ToLower();
+                }
+            }
+            else if (passWordTextBox.IsFocused)
+            {
+                if (i_givenChar.Equals("Del"))
+                {
+                    if (passWordTextBox.Text.Length > 1)
+                    {
+                        passWordTextBox.Text = passWordTextBox.Text.Remove(passWordTextBox.Text.Length - 1, 1);
+                    }
+                }
+                else
+                {
+                    passWordTextBox.Text += i_givenChar.ToLower();
+                }
+            }
         }
     }
 }

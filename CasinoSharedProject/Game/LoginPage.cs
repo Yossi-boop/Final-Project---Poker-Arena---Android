@@ -9,7 +9,6 @@ using MonoGame.Extended.Gui;
 using MonoGame.Extended.Gui.Controls;
 using MonoGame.Extended.ViewportAdapters;
 using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.Input.Touch;
 
 namespace Casino
 {
@@ -23,6 +22,9 @@ namespace Casino
         private SpritesStorage storage;
 
         private GuiSystem _guiSystem;
+
+        private bool isUserNameTextBoxFocused = false;
+        private bool isPassWordTextBoxFocused = false;
 
         private TextBox userNameTextBox;
         private TextBox passWordTextBox;
@@ -235,7 +237,7 @@ namespace Casino
 
         private async void LoginButton_Clicked(object sender, EventArgs e)
         {
-            if (userNameTextBox.Text.Length == 1 || passWordTextBox.Text.Length == 1)
+            if (userNameTextBox.Text.Length == 0 || passWordTextBox.Text.Length == 0)
             {
                 errorMessage.Content = enterUsernameAndPassword;
                 errorMessage.IsVisible = true;
@@ -245,14 +247,14 @@ namespace Casino
                 errorMessage.IsVisible = false;
                 tryAgainMessage.IsVisible = false;
 
-                string loginResponse = await gameManager.server.Login("ron@gmail.com", "1234");
+                string loginResponse = await gameManager.server.Login(userNameTextBox.Text, password.ToString());
 
                 if (loginResponse.Contains("loggedIn complete")) // Successful login
                 {
                     if (gameManager.casinoRoom == null)
                     {
                         gameManager.casinoRoom = new CasinoRoom(gameManager, contentManager, storage);
-                        gameManager.mainPlayerEmail = "ron@gmail.com";
+                        gameManager.mainPlayerEmail = userNameTextBox.Text;
                         await gameManager.casinoRoom.Load(_spriteBatch);
                     }
                     //gameManager.mainPlayerEmail = userNameTextBox.Text;
@@ -290,11 +292,54 @@ namespace Casino
         public void Update(GameTime i_gameTime)
         {
             _guiSystem.Update(i_gameTime);
+            if (userNameTextBox.IsFocused && !isUserNameTextBoxFocused)
+            {
+                gameManager.showKeyBoard();
+            }
+            isUserNameTextBoxFocused = userNameTextBox.IsFocused;
+
+            if(passWordTextBox.IsFocused && !isPassWordTextBoxFocused)
+            {
+                gameManager.showKeyBoard();
+            }
+            isPassWordTextBoxFocused = passWordTextBox.IsFocused;
         }
 
         public void Draw(GameTime i_gameTime)
         {
-            _guiSystem.Draw(i_gameTime);
+            _guiSystem.Draw(i_gameTime);   
+        }
+
+        public void handleKeyboardInput(string i_givenChar)
+        {
+            if(userNameTextBox.IsFocused)
+            {
+                if(i_givenChar.Equals("Del"))
+                {
+                    if(userNameTextBox.Text.Length > 1)
+                    {
+                        userNameTextBox.Text = userNameTextBox.Text.Remove(userNameTextBox.Text.Length - 1, 1);
+                    }
+                }
+                else
+                {
+                    userNameTextBox.Text += i_givenChar.ToLower();
+                }
+            }
+            else if(passWordTextBox.IsFocused)
+            {
+                if(i_givenChar.Equals("Del"))
+                {
+                    if( passWordTextBox.Text.Length > 1)
+                    {
+                        passWordTextBox.Text = passWordTextBox.Text.Remove(passWordTextBox.Text.Length - 1, 1);
+                    }
+                }
+                else
+                {
+                    passWordTextBox.Text += i_givenChar.ToLower();
+                }                
+            }
         }
     }
 }

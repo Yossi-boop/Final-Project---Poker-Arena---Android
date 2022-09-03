@@ -49,19 +49,10 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Classes">
-      <HintPath>..\Classes.dll</HintPath>
-    </Reference>
-    <Reference Include="Server">
-      <HintPath>..\..\Final Project\Front End\Server.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Usefull Methods">
-      <HintPath>..\Usefull Methods.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activity1.cs" />

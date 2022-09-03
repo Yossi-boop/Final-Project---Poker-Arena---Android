@@ -56,23 +56,7 @@ namespace Casino
                 isShiftOn = false;
             }
             
-            if(kState.IsKeyDown(Keys.Left))
-            {
-                returnKey = Keys.Left;
-            }
-            else if(kState.IsKeyDown(Keys.Right))
-            {
-                returnKey = Keys.Right;
-            }
-            else if (kState.IsKeyDown(Keys.Up))
-            {
-                returnKey = Keys.Up;
-            }
-            else if (kState.IsKeyDown(Keys.Down))
-            {
-                returnKey = Keys.Down;
-            }
-            else if(kState.IsKeyDown(Keys.Back) && capitalKeysReleased[26])
+            if(kState.IsKeyDown(Keys.Back) && capitalKeysReleased[26])
             {
                 capitalKeysReleased[26] = false;
                 returnKey = Keys.Back;
@@ -111,35 +95,6 @@ namespace Casino
             {
                 capitalKeysReleased[33] = false;
                 returnKey = Keys.Enter;
-            }
-            else
-            {
-                for (int i = (int)Keys.A; i <= (int)Keys.Z; i++)
-                {
-                    if (kState.IsKeyDown((Keys)i) && capitalKeysReleased[i - (int)Keys.A])
-                    {
-                        capitalKeysReleased[i - (int)Keys.A] = false;
-                        returnKey = (Keys)i;
-                    }
-                }
-
-                for (int i = (int)Keys.D0; i <= (int)Keys.D9; i++)
-                {
-                    if (kState.IsKeyDown((Keys)i) && digitKeysReleased[i - (int)Keys.D0])
-                    {
-                        digitKeysReleased[i - (int)Keys.D0] = false;
-                        returnKey = (Keys)i;
-                    }
-                }
-
-                for (int i = (int)Keys.NumPad0; i <= (int)Keys.NumPad9; i++)
-                {
-                    if (kState.IsKeyDown((Keys)i) && numPadKeysReleased[i - (int)Keys.NumPad0])
-                    {
-                        numPadKeysReleased[i - (int)Keys.NumPad0] = false;
-                        returnKey = (Keys)i;
-                    }
-                }
             }
 
             if(kState.IsKeyUp(Keys.Back))

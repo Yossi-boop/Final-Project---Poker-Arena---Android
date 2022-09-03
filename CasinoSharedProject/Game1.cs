@@ -37,7 +37,6 @@ namespace Casino
         public delegate void KeyboardAction();
         public KeyboardAction showKeyBoard;
         public KeyboardAction hideKeyBoard;
-        public KeyboardAction OnKeyPress;
 
         public Game1()
         {
@@ -158,7 +157,7 @@ namespace Casino
                 casinoRoom = new CasinoRoom(this, Content, storage);
                 await casinoRoom.Load(_spriteBatch);
             }
-            if(casinoRoom.isReEnterToCasino)
+            if (casinoRoom.isReEnterToCasino)
             {
                 casinoRoom.isReEnterToCasino = false;
                 casinoRoom.UpdateMainPlayer(mainPlayerEmail);
@@ -189,6 +188,25 @@ namespace Casino
         private void updateLoginPage(GameTime i_gameTime)
         {
             loginPage.Update(i_gameTime);
+        }
+
+        public void handleKeyboardInput(string i_givenChar)
+        {
+            switch (ScreenType)
+            {
+                case eScreenType.LoginPage:
+                    loginPage.handleKeyboardInput(i_givenChar);
+                    break;
+                case eScreenType.RegisterPage:
+                    registerPage.handleKeyboardInput(i_givenChar);
+                    break;
+                case eScreenType.CasinoRoom:
+                    casinoRoom.handleKeyboardInput(i_givenChar);
+                    break;
+                case eScreenType.PokerTable:
+                    pokerTable.handleKeyboardInput(i_givenChar);
+                    break;
+            }
         }
     }
 }

@@ -140,7 +140,7 @@ namespace Casino
                 mainPlayer.Load(painter);
                 camera.Follow(mainPlayer);
 
-                casinoRoomNewChat = new NewChat(storage, (int)(250 * width), (int)(250 * height));
+                casinoRoomNewChat = new NewChat(storage, (int)(250 * width), (int)(250 * height), gameManager);
                 casinoRoomNewChat.UpdateMessageList(await gameManager.server.getCasinoMessages("1234"));
                 casinoRoomNewChat.Load(painter);
 
@@ -616,7 +616,7 @@ namespace Casino
 
                 mainPlayer.updatePlayer(i_gameTime, currentInput, instanceobjlock);
                 lastMessage = casinoRoomNewChat.Update(i_gameTime, mainPlayer.position,
-                    currentInput, keyboard.isCapsLockOn, keyboard.isShiftOn);
+                    currentInput, keyboard.isCapsLockOn, keyboard.isShiftOn, touchLocation);
 
                 if (lastMessage != null)
                 {
@@ -1263,6 +1263,14 @@ namespace Casino
                 gameManager.ScreenType = eScreenType.PokerTable;
             }
             catch (Exception) { }
+        }
+
+        public void handleKeyboardInput(string i_givenChar)
+        {
+            if(casinoRoomNewChat.IsChatVisible)
+            {
+                casinoRoomNewChat.handleKeyboardInput(i_givenChar);
+            }
         }
     }
 }

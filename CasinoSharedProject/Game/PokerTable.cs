@@ -149,7 +149,7 @@ namespace Casino
                 width = (float)Game1.UserScreenWidth / 1280;
                 height = (float)Game1.UserScreenHeight / 720;
 
-                pokerTableChat = new NewChat(storage, (int)(250 * width), (int)(250 * height));
+                pokerTableChat = new NewChat(storage, (int)(250 * width), (int)(250 * height), gameManager);
                 pokerTableChat.Load(painter);
 
                 keyboard = new KeyboardInput();
@@ -752,7 +752,7 @@ namespace Casino
                 if (touchState.Count > 0)
                     touchLocation = new Vector2(touchState[0].Position.X, touchState[0].Position.Y);
                 lastMessage = pokerTableChat.Update(i_gametime, new Vector2(640*width, 360*height),
-                    currentInput, keyboard.isCapsLockOn, keyboard.isShiftOn);
+                    currentInput, keyboard.isCapsLockOn, keyboard.isShiftOn, touchLocation);
                 if (lastMessage != null)
                 {
                     gameManager.server.SendMessageToTableChat(tableId, casinoId, 
@@ -1914,6 +1914,14 @@ namespace Casino
                 }
             }
             catch (Exception) { }
+        }
+
+        public void handleKeyboardInput(string i_givenChar)
+        {
+            if (pokerTableChat.IsChatVisible)
+            {
+                pokerTableChat.handleKeyboardInput(i_givenChar);
+            }
         }
     }
 }
