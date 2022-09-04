@@ -69,11 +69,15 @@ namespace Casino.Android
                 {
                     _game.handleKeyboardInput(e.KeyCode.ToString());
                 }
-                else if (e.KeyCode.ToString().Equals("Period"))
+                else if(e.KeyCode.ToString().Equals("Period"))
                 {
                     _game.handleKeyboardInput(".");
                 }
-                else
+                else if(e.KeyCode.ToString().Equals("Space"))
+                {
+                    _game.handleKeyboardInput(" ");
+                }
+                else if(isKeyCodeLetter(e.KeyCode))
                 {
                     _game.handleKeyboardInput(e.KeyCode.ToString());
                 }
@@ -85,6 +89,13 @@ namespace Casino.Android
             int intRepresentationOf0Key = 7;
             int intRepresentationOf9Key = 16;
             return (int)i_keycode >= intRepresentationOf0Key && (int)i_keycode <= intRepresentationOf9Key;
+        }
+
+        private bool isKeyCodeLetter(Keycode i_keyCode)
+        {
+            int intRepresentationOfAKey = 29;
+            int intRepresentationOfZKey = 54;
+            return (int)i_keyCode >= intRepresentationOfAKey && (int)i_keyCode <= intRepresentationOfZKey;
         }
 
         private string numberAndSymbolKeyCodeToString(View.KeyEventArgs e)

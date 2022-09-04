@@ -17,14 +17,14 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Proxy\" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="Classes">
       <HintPath>..\Classes.dll</HintPath>
     </Reference>
     <Reference Include="Usefull Methods">
       <HintPath>..\Usefull Methods.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Proxy\" />
   </ItemGroup>
 </Project>
