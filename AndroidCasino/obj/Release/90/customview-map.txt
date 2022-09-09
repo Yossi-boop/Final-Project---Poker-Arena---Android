@@ -1,0 +1,5 @@
+item;obj\Release\90\res\values\styles.xml
+resources;obj\Release\90\res\values\strings.xml
+resources;obj\Release\90\res\values\styles.xml
+string;obj\Release\90\res\values\strings.xml
+style;obj\Release\90\res\values\styles.xml

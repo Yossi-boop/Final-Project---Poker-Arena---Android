@@ -1,0 +1,21 @@
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\bin\Debug\Usefull Methods.dll.config
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\bin\Debug\Usefull Methods.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\bin\Debug\Usefull Methods.pdb
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\obj\Debug\UsefullMethods.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\obj\Debug\Usefull Methods.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\obj\Debug\Usefull Methods.pdb
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\obj\Debug\UsefullMethods.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Usefull Methods\bin\Debug\Usefull Methods.dll.config
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Usefull Methods\bin\Debug\Usefull Methods.dll
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Usefull Methods\bin\Debug\Usefull Methods.pdb
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Usefull Methods\obj\Debug\UsefullMethods.csprojAssemblyReference.cache
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Usefull Methods\obj\Debug\UsefullMethods.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Usefull Methods\obj\Debug\Usefull Methods.dll
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Usefull Methods\obj\Debug\Usefull Methods.pdb
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\bin\Debug\Usefull Methods.dll.config
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\bin\Debug\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\bin\Debug\Usefull Methods.pdb
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\obj\Debug\UsefullMethods.csproj.AssemblyReference.cache
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\obj\Debug\UsefullMethods.csproj.CoreCompileInputs.cache
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\obj\Debug\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\obj\Debug\Usefull Methods.pdb

@@ -20,11 +20,7 @@
     <Folder Include="Proxy\" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Classes">
-      <HintPath>..\Classes.dll</HintPath>
-    </Reference>
-    <Reference Include="Usefull Methods">
-      <HintPath>..\Usefull Methods.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Classes\Classes.csproj" />
+    <ProjectReference Include="..\Usefull Methods\UsefullMethods.csproj" />
   </ItemGroup>
 </Project>

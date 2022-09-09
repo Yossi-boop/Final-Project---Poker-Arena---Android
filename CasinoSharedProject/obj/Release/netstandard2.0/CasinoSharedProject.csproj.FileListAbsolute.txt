@@ -1,0 +1,627 @@
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\BlueFloor.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Coins\Coin1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Coins\Coin2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Coins\Coin3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Coins\Coin4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Coins\Coin5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\CurrentPlayerMark.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\dark-green-texture.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\BrownCouch.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\CasinoRoomPokerTable.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\CasinoRoomSnokerTable.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\CasinoRoomTreasureBox.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\Couch.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\Roulette Table.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\Slot Machine.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\Statue.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\TopPokerTable.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\Tree.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\10C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\10D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\10H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\10S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\11C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\11D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\11H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\11S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\12C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\12D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\12H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\12S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\13C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\13D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\13H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\13S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\1C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\1D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\1H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\1S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\2C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\2D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\2H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\2S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\3C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\3D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\3H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\3S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\4C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\4D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\4H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\4S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\5C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\5D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\5H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\5S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\6C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\6D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\6H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\6S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\7C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\7D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\7H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\7S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\8C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\8D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\8H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\8S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\9C.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\9D.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\9H.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\9S.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\backR.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenBackground.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenBackGround2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenButtonDown.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenButtonGeneral.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenButtonLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenButtonRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenButtonUp.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenX.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyBackground.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyBackground2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyButtonDown.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyButtonGeneral.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyButtonLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyButtonRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyButtonUp.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyX.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\HandsRating.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\login.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\DinoFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\DinoFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\StandFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\StandFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\JackFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\JackFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\StandFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\StandFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\KnightFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\KnightFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\StandFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\StandFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\NinjaFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\NinjaFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\StandFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\StandFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\SantaFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\SantaFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\StandFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\StandFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft11.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft12.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft13.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight11.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight12.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight13.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\StandFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\StandFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight10.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight4.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight6.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight7.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight8.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight9.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\ZombieFaceLeft.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\ZombieFaceRight.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\BigBlind.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip100.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip1000.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip25.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip5.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip500.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\Dealer.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\SmallBlind.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerSigns\Call.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerSigns\Check.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerSigns\Fold.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerSigns\Raise.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sensation.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\BackgroundMusic.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\BackgroundMusic.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Billiard.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Billiard.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\ChestMusic.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\ChestMusicnew.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\ChestMusicnew.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic2new.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic2new.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic3new.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic3new.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\LeftFootMusic.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\LeftFootMusic.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\PokerCardMusic.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\PokerCardMusicnew.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\PokerCardMusicnew.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RightFootMusic.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RightFootMusic.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RouletteWheel.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RouletteWheel.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RouletteWheel2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RouletteWheel2new.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RouletteWheel2new.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\SlotMachine.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\SlotMachine.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Statue.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Statue.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Tree.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Tree.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\TreesMusic2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\TreesMusic2new.ogg
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\TreesMusic2new.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpeachBubble.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\BubbleFont.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\BubbleFont1.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\BubbleFont2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\BubbleFont3.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\ChatFont.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\GameFont.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\CasinoSharedProject.deps.json
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\CasinoSharedProject.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\CasinoSharedProject.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Classes.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Server.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Usefull Methods.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.csproj.AssemblyReference.cache
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.AssemblyInfoInputs.cache
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.AssemblyInfo.cs
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.csproj.CoreCompileInputs.cache
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.csproj.CopyComplete
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenBackGround2.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sensation_0.xnb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenBackGround2.png
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenBackGround2.png
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\BlueFloor.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Coins\Coin1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Coins\Coin2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Coins\Coin3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Coins\Coin4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Coins\Coin5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\CurrentPlayerMark.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\dark-green-texture.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\BrownCouch.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\CasinoRoomPokerTable.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\CasinoRoomSnokerTable.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\CasinoRoomTreasureBox.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\Couch.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\Roulette Table.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\Slot Machine.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\Statue.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\TopPokerTable.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Furnitures\Tree.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\10C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\10D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\10H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\10S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\11C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\11D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\11H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\11S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\12C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\12D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\12H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\12S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\13C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\13D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\13H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\13S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\1C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\1D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\1H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\1S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\2C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\2D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\2H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\2S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\3C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\3D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\3H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\3S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\4C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\4D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\4H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\4S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\5C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\5D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\5H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\5S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\6C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\6D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\6H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\6S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\7C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\7D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\7H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\7S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\8C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\8D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\8H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\8S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\9C.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\9D.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\9H.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\9S.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GameCards\backR.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenBackGround2.png
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenBackGround2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenBackground.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenBackGround2.png
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenBackGround2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenButtonDown.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenButtonGeneral.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenButtonLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenButtonRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenButtonUp.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreenUI\GreenX.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyBackground.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyBackground2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyButtonDown.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyButtonGeneral.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyButtonLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyButtonRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyButtonUp.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\GreyUI\GreyX.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\HandsRating.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\login.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\DinoFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\DinoFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\StandFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\StandFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceLeft9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerDino\WalkFaceRight9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\JackFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\JackFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\StandFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\StandFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceLeft9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerJack\WalkFaceRight9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\KnightFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\KnightFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\StandFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\StandFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceLeft9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerKnight\WalkFaceRight9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\NinjaFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\NinjaFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\StandFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\StandFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceLeft9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerNinja\WalkFaceRight9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\SantaFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\SantaFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\StandFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\StandFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft11.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft12.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft13.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceLeft9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight11.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight12.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight13.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerSanta\WalkFaceRight9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\StandFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\StandFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceLeft9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight10.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight4.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight6.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight7.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight8.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\WalkFaceRight9.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\ZombieFaceLeft.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PlayerZombie\ZombieFaceRight.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\BigBlind.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip100.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip1000.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip25.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip5.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\chip500.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\Dealer.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerChips\SmallBlind.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerSigns\Call.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerSigns\Check.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerSigns\Fold.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\PokerSigns\Raise.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sensation.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sensation_0.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\BackgroundMusic.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\BackgroundMusic.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Billiard.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Billiard.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\ChestMusic.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\ChestMusicnew.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\ChestMusicnew.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic2new.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic2new.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic3new.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\CoinsMusic3new.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\LeftFootMusic.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\LeftFootMusic.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\PokerCardMusic.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\PokerCardMusicnew.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\PokerCardMusicnew.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RightFootMusic.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RightFootMusic.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RouletteWheel.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RouletteWheel.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RouletteWheel2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RouletteWheel2new.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\RouletteWheel2new.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\SlotMachine.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\SlotMachine.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Statue.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Statue.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Tree.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\Tree.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\TreesMusic2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\TreesMusic2new.ogg
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\Sounds\TreesMusic2new.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpeachBubble.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\BubbleFont.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\BubbleFont1.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\BubbleFont2.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\BubbleFont3.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\ChatFont.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Content\SpriteFont\GameFont.xnb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\CasinoSharedProject.deps.json
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\CasinoSharedProject.dll
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\CasinoSharedProject.pdb
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Classes.dll
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\bin\Release\netstandard2.0\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.csproj.AssemblyReference.cache
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.AssemblyInfoInputs.cache
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.AssemblyInfo.cs
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.csproj.CoreCompileInputs.cache
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.csproj.CopyComplete
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.dll
+C:\Users\Yossi\Desktop\Front End\CasinoSharedProject\obj\Release\netstandard2.0\CasinoSharedProject.pdb

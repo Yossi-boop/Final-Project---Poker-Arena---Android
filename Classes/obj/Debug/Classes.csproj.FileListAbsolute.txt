@@ -1,0 +1,104 @@
+C:\Users\user\source\repos\Classes\obj\Debug\Classes.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\Classes.dll.config
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\Classes.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\Classes.pdb
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\Usefull Methods.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\Usefull Methods.pdb
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\Usefull Methods.dll.config
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\obj\Debug\Classes.csproj.CopyComplete
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\obj\Debug\Classes.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\obj\Debug\Classes.pdb
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\EntityFramework.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\EntityFramework.xml
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\obj\Debug\Classes.csprojAssemblyReference.cache
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\obj\Debug\Classes.dll
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\obj\Debug\Classes.pdb
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\Classes.dll.config
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\Classes.dll
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\Classes.pdb
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\EntityFramework.dll
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\Usefull Methods.dll
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\Usefull Methods.pdb
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\Usefull Methods.dll.config
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\EntityFramework.xml
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\micha\source\repos\projectYYY\Final-Project---Poker-Arena\Back End\Classes\obj\Debug\Classes.csproj.CopyComplete
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\Classes.dll.config
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\Classes.dll
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\Classes.pdb
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\EntityFramework.dll
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\Usefull Methods.dll
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\Usefull Methods.pdb
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\Usefull Methods.dll.config
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\EntityFramework.xml
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\micha\Desktop\Final Project\Back End\Classes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\micha\Desktop\Final Project\Back End\Classes\obj\Debug\Classes.csprojAssemblyReference.cache
+C:\Users\micha\Desktop\Final Project\Back End\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\Final Project\Back End\Classes\obj\Debug\Classes.csproj.CopyComplete
+C:\Users\micha\Desktop\Final Project\Back End\Classes\obj\Debug\Classes.dll
+C:\Users\micha\Desktop\Final Project\Back End\Classes\obj\Debug\Classes.pdb
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\Classes.dll.config
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\Classes.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\Classes.pdb
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\EntityFramework.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\Usefull Methods.pdb
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\Usefull Methods.dll.config
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\EntityFramework.xml
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\obj\Debug\Classes.csproj.CopyComplete
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\obj\Debug\Classes.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\obj\Debug\Classes.pdb
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\Classes.dll.config
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\Classes.dll
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\Classes.pdb
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\EntityFramework.dll
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\Usefull Methods.pdb
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\Usefull Methods.dll.config
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\EntityFramework.xml
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\obj\Debug\Classes.csproj.CopyComplete
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\obj\Debug\Classes.dll
+C:\Users\Yossi\Desktop\Final Project\Front End\Classes\obj\Debug\Classes.pdb
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\Classes.dll.config
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\Classes.dll
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\Classes.pdb
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\EntityFramework.dll
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\Usefull Methods.pdb
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\Usefull Methods.dll.config
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\EntityFramework.xml
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yossi\Desktop\Front End\Classes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Yossi\Desktop\Front End\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache
+C:\Users\Yossi\Desktop\Front End\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\Yossi\Desktop\Front End\Classes\obj\Debug\Classes.csproj.CopyComplete
+C:\Users\Yossi\Desktop\Front End\Classes\obj\Debug\Classes.dll
+C:\Users\Yossi\Desktop\Front End\Classes\obj\Debug\Classes.pdb

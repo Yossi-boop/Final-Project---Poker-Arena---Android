@@ -1,0 +1,276 @@
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\AndroidCasino.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\AndroidCasino.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\Platformer2D.Android.Platformer2D.Android.apk
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\Platformer2D.Android.Platformer2D.Android.aab
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\Platformer2D.Android.Platformer2D.Android-Signed.aab
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\Platformer2D.Android.Platformer2D.Android-Signed.apk
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\Platformer2D.Android.Platformer2D.Android-Signed.apk.idsig
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\AndroidCasino.dll.mdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\CasinoSharedProject.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\Classes.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\Server.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\Usefull Methods.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\bin\AnyCPU\Release\CasinoSharedProject.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\build.props
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\adb.props
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\AndroidCasino.csproj.AssemblyReference.cache
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\stamp\_BuildLibraryImportsCache.stamp
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\res.flag
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\R.txt
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\R.cs.flag
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\AndroidCasino.csproj.CoreCompileInputs.cache
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\AndroidCasino.csproj.CopyComplete
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\AndroidCasino.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\AndroidCasino.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\bin\Platformer2D.Android.Platformer2D.Android.apk
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\bin\base.zip
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\bin\Platformer2D.Android.Platformer2D.Android.aab
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\bin\Platformer2D.Android.Platformer2D.Android.apks
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\res\drawable\icon.png
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\res\values\strings.xml
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\res\drawable\splash.png
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\res\values\styles.xml
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\uploadflags.txt
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\resolvedassemblies.hash
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\link.flag
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\AndroidCasino.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\AndroidCasino.dll.mdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\AndroidCasino.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\CasinoSharedProject.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\CasinoSharedProject.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\Classes.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\Java.Interop.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\Mono.Android.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\Mono.Android.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\Mono.Security.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\Mono.Security.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\MonoGame.Extended.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\MonoGame.Extended.Gui.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\MonoGame.Extended.Input.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\MonoGame.Framework.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\mscorlib.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\mscorlib.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\Newtonsoft.Json.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\Server.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.ComponentModel.DataAnnotations.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.ComponentModel.DataAnnotations.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Core.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Core.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Data.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Data.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Drawing.Common.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Drawing.Common.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Net.Http.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Net.Http.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Numerics.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Numerics.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Runtime.Serialization.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Runtime.Serialization.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Transactions.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Transactions.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Xml.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Xml.Linq.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Xml.Linq.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\System.Xml.pdb
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\Usefull Methods.dll
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.arm64-v8a.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.armeabi-v7a.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86_64.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.arm64-v8a-managed.inc
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.armeabi-v7a-managed.inc
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86-managed.inc
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86_64-managed.inc
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.armeabi-v7a-shared.inc
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.shared.inc
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\AndroidManifest.xml
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\__environment__.txt
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\mono\MonoRuntimeProvider.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\assets\machine.config
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\bin\mono.android.jar
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\static.flag
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\buildid.txt
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\environment.arm64-v8a.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\environment.armeabi-v7a.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\environment.x86.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\environment.x86_64.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\crc64493ac3851fab1842\AndroidGameActivity.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\crc64493ac3851fab1842\MonoGameAndroidGameView.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\crc64493ac3851fab1842\OrientationListener.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\crc64493ac3851fab1842\ScreenReceiver.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\crc64bad279ad1fc32b96\Activity1.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\crc64f0e061189adeef62\Accelerometer_SensorListener.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\crc64f0e061189adeef62\Compass_SensorListener.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\mono\android\app\ApplicationRegistration.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\mono\MonoPackageManager_Resources.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\bin\packaged_resources
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\src\platformer2d\android\platformer2d\android\R.java
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.arm64-v8a.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.armeabi-v7a.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.x86.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.x86_64.s
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.arm64-v8a.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.armeabi-v7a.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86_64.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\environment.arm64-v8a.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\environment.armeabi-v7a.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\environment.x86.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\environment.x86_64.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.arm64-v8a.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.armeabi-v7a.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.x86.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.x86_64.o
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\app_shared_libraries\arm64-v8a\libxamarin-app.so
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\app_shared_libraries\armeabi-v7a\libxamarin-app.so
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\app_shared_libraries\x86\libxamarin-app.so
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\app_shared_libraries\x86_64\libxamarin-app.so
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\android\bin\classes.dex
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\stamp\_CleanIntermediateIfNeeded.stamp
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\stamp\_CompileToDalvik.stamp
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\stamp\_ConvertCustomView.stamp
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\stamp\_ConvertResourcesCases.stamp
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\stamp\_GenerateJavaStubs.stamp
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\stamp\_GeneratePackageManagerJava.stamp
+E:\PROGRAMMARE\LAVORO\Monogame\bo robe server etc\Project\Front End\AndroidCasino\obj\Release\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\AndroidCasino.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\AndroidCasino.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\Platformer2D.Android.Platformer2D.Android.apk
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\Platformer2D.Android.Platformer2D.Android.aab
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\Platformer2D.Android.Platformer2D.Android-Signed.aab
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\Platformer2D.Android.Platformer2D.Android-Signed.apk
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\Platformer2D.Android.Platformer2D.Android-Signed.apk.idsig
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\AndroidCasino.dll.mdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\CasinoSharedProject.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\Classes.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\Server.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\bin\AnyCPU\Release\CasinoSharedProject.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\build.props
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\adb.props
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\AndroidCasino.csproj.AssemblyReference.cache
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\res.flag
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\R.txt
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\R.cs.flag
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\AndroidCasino.csproj.CoreCompileInputs.cache
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\AndroidCasino.csproj.CopyComplete
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\AndroidCasino.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\AndroidCasino.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\bin\Platformer2D.Android.Platformer2D.Android.apk
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\bin\base.zip
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\bin\Platformer2D.Android.Platformer2D.Android.aab
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\bin\Platformer2D.Android.Platformer2D.Android.apks
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\res\drawable\icon.png
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\res\values\strings.xml
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\res\drawable\splash.png
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\res\values\styles.xml
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\uploadflags.txt
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\resolvedassemblies.hash
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\link.flag
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\AndroidCasino.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\AndroidCasino.dll.mdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\AndroidCasino.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\CasinoSharedProject.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\CasinoSharedProject.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\Classes.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\Java.Interop.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\Mono.Android.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\Mono.Android.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\Mono.Security.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\Mono.Security.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\MonoGame.Extended.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\MonoGame.Extended.Gui.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\MonoGame.Extended.Input.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\MonoGame.Framework.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\mscorlib.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\mscorlib.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\Newtonsoft.Json.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\Server.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.ComponentModel.DataAnnotations.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.ComponentModel.DataAnnotations.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Core.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Core.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Data.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Data.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Drawing.Common.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Drawing.Common.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Net.Http.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Net.Http.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Numerics.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Numerics.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Runtime.Serialization.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Runtime.Serialization.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Transactions.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Transactions.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Xml.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Xml.Linq.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Xml.Linq.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\System.Xml.pdb
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.arm64-v8a.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.armeabi-v7a.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86_64.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.arm64-v8a-managed.inc
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.armeabi-v7a-managed.inc
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86-managed.inc
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86_64-managed.inc
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.armeabi-v7a-shared.inc
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.shared.inc
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\AndroidManifest.xml
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\__environment__.txt
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\mono\MonoRuntimeProvider.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\assets\machine.config
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\bin\mono.android.jar
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\static.flag
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\buildid.txt
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\environment.arm64-v8a.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\environment.armeabi-v7a.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\environment.x86.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\environment.x86_64.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\crc64493ac3851fab1842\AndroidGameActivity.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\crc64493ac3851fab1842\MonoGameAndroidGameView.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\crc64493ac3851fab1842\OrientationListener.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\crc64493ac3851fab1842\ScreenReceiver.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\crc64bad279ad1fc32b96\Activity1.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\crc64f0e061189adeef62\Accelerometer_SensorListener.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\crc64f0e061189adeef62\Compass_SensorListener.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\mono\android\app\ApplicationRegistration.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\mono\MonoPackageManager_Resources.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\bin\packaged_resources
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\src\platformer2d\android\platformer2d\android\R.java
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.arm64-v8a.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.armeabi-v7a.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.x86.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.x86_64.s
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.arm64-v8a.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.armeabi-v7a.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\typemaps.x86_64.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\environment.arm64-v8a.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\environment.armeabi-v7a.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\environment.x86.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\environment.x86_64.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.arm64-v8a.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.armeabi-v7a.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.x86.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\compressed_assemblies.x86_64.o
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\app_shared_libraries\armeabi-v7a\libxamarin-app.so
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\app_shared_libraries\x86\libxamarin-app.so
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\android\bin\classes.dex
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\stamp\_CleanIntermediateIfNeeded.stamp
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\stamp\_CompileToDalvik.stamp
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\stamp\_ConvertCustomView.stamp
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\stamp\_ConvertResourcesCases.stamp
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\stamp\_GenerateJavaStubs.stamp
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\stamp\_GeneratePackageManagerJava.stamp
+C:\Users\Yossi\Desktop\Front End\AndroidCasino\obj\Release\90\stamp\_ResolveLibraryProjectImports.stamp

@@ -1,0 +1,34 @@
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\Classes.dll.config
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\Classes.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\Classes.pdb
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\EntityFramework.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\Newtonsoft.Json.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\Usefull Methods.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\Usefull Methods.pdb
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\Usefull Methods.dll.config
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\EntityFramework.xml
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\bin\Release\Newtonsoft.Json.xml
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\obj\Release\Classes.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\obj\Release\Classes.csproj.CopyComplete
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\obj\Release\Classes.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\obj\Release\Classes.pdb
+C:\Users\micha\source\repos\BackEndMTAProject\Classes\obj\Release\Classes.csproj.AssemblyReference.cache
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\Classes.dll.config
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\Classes.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\Classes.pdb
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\EntityFramework.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\Newtonsoft.Json.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\Usefull Methods.pdb
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\Usefull Methods.dll.config
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\EntityFramework.xml
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\bin\Release\Newtonsoft.Json.xml
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\obj\Release\Classes.csproj.AssemblyReference.cache
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\obj\Release\Classes.csproj.CoreCompileInputs.cache
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\obj\Release\Classes.csproj.CopyComplete
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\obj\Release\Classes.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Classes\obj\Release\Classes.pdb

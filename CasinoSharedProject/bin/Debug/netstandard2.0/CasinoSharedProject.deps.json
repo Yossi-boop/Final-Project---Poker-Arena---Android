@@ -1,0 +1,179 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "CasinoSharedProject/1.0.0": {
+        "dependencies": {
+          "Classes": "1.0.0",
+          "MonoGame.Content.Builder.Task": "3.8.0.1641",
+          "MonoGame.Extended": "3.8.0",
+          "MonoGame.Extended.Content.Pipeline": "3.8.0",
+          "MonoGame.Extended.Gui": "3.8.0",
+          "MonoGame.Framework.DesktopGL": "3.8.0.1641",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "13.0.1",
+          "UsefullMethods": "1.0.0"
+        },
+        "runtime": {
+          "CasinoSharedProject.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MonoGame.Content.Builder.Task/3.8.0.1641": {},
+      "MonoGame.Extended/3.8.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Extended.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Content.Pipeline/3.8.0": {},
+      "MonoGame.Extended.Gui/3.8.0": {
+        "dependencies": {
+          "MonoGame.Extended": "3.8.0",
+          "MonoGame.Extended.Input": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Extended.Gui.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Input/3.8.0": {
+        "dependencies": {
+          "MonoGame.Extended": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Extended.Input.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MonoGame.Framework.DesktopGL/3.8.0.1641": {
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Framework.dll": {
+            "assemblyVersion": "3.8.0.1641",
+            "fileVersion": "3.8.0.1641"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Classes/1.0.0": {
+        "dependencies": {
+          "UsefullMethods": "1.0.0"
+        },
+        "runtime": {
+          "Classes.dll": {}
+        }
+      },
+      "UsefullMethods/1.0.0": {
+        "runtime": {
+          "Usefull Methods.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CasinoSharedProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MonoGame.Content.Builder.Task/3.8.0.1641": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oHA60q9MhkqGnSiJlXosdynD400sQ/j1Ef+0XkJYIQT4Io9RQ6Zk8i0vjpnIbQ0PgsoaQN3IRYjNzkhqq3uUGA==",
+      "path": "monogame.content.builder.task/3.8.0.1641",
+      "hashPath": "monogame.content.builder.task.3.8.0.1641.nupkg.sha512"
+    },
+    "MonoGame.Extended/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FDPoUOFtslGNHCWSqjKD0C67RYN6Stb6NWnn+rkCmtkPBZlE6LvwuGyQBkHUkAMANO3LzO/Wsz9etMhwZLInqg==",
+      "path": "monogame.extended/3.8.0",
+      "hashPath": "monogame.extended.3.8.0.nupkg.sha512"
+    },
+    "MonoGame.Extended.Content.Pipeline/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kt21Ux4Hdkgm7FMiGhQ7C0+rMS0wMQM63TxWsNBa8DjEDwX1pKIUORxvQBgh89J4TiMSmmK+U6VfxV2kh5PPpg==",
+      "path": "monogame.extended.content.pipeline/3.8.0",
+      "hashPath": "monogame.extended.content.pipeline.3.8.0.nupkg.sha512"
+    },
+    "MonoGame.Extended.Gui/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q40QIqEsmX3+tpLqENswMRIQ1FBf/3llJDGk3zTStdb2ejs4LGYWNeBIEbGqj3anfecT4qgNnJKCIaL61Cmx7A==",
+      "path": "monogame.extended.gui/3.8.0",
+      "hashPath": "monogame.extended.gui.3.8.0.nupkg.sha512"
+    },
+    "MonoGame.Extended.Input/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-90RtzI6N+RCGHolI/yTwGT47vqSyr+IEe+yKxzm4/euc8rDVnbAwz4lRifkAEdHx29X3apD0Ui5ve0C/7yO7wQ==",
+      "path": "monogame.extended.input/3.8.0",
+      "hashPath": "monogame.extended.input.3.8.0.nupkg.sha512"
+    },
+    "MonoGame.Framework.DesktopGL/3.8.0.1641": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rJQlrlHQbnOECYV6EcQ8GlGRQ2lzPTroXQcyyOZ0ki+BQRSJEN2zVBm9skqLiXya348aGAfTSSGTaSKjAy9NaA==",
+      "path": "monogame.framework.desktopgl/3.8.0.1641",
+      "hashPath": "monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Classes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UsefullMethods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

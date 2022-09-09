@@ -1,0 +1,13 @@
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\bin\Release\Usefull Methods.dll.config
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\bin\Release\Usefull Methods.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\bin\Release\Usefull Methods.pdb
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\obj\Release\UsefullMethods.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\obj\Release\Usefull Methods.dll
+C:\Users\micha\source\repos\BackEndMTAProject\Usefull Methods\obj\Release\Usefull Methods.pdb
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\bin\Release\Usefull Methods.dll.config
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\bin\Release\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\bin\Release\Usefull Methods.pdb
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\obj\Release\UsefullMethods.csproj.AssemblyReference.cache
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\obj\Release\UsefullMethods.csproj.CoreCompileInputs.cache
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\obj\Release\Usefull Methods.dll
+C:\Users\Yossi\Desktop\Final Project\Back End\Usefull Methods\obj\Release\Usefull Methods.pdb

@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Yossi\\Desktop\\Front End\\CasinoSharedProject\\CasinoSharedProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yossi\\Desktop\\Front End\\CasinoSharedProject\\CasinoSharedProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yossi\\Desktop\\Front End\\CasinoSharedProject\\CasinoSharedProject.csproj",
+        "projectName": "CasinoSharedProject",
+        "projectPath": "C:\\Users\\Yossi\\Desktop\\Front End\\CasinoSharedProject\\CasinoSharedProject.csproj",
+        "packagesPath": "C:\\Users\\Yossi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yossi\\Desktop\\Front End\\CasinoSharedProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yossi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Yossi\\Desktop\\Front End\\Classes\\Classes.csproj": {
+                "projectPath": "C:\\Users\\Yossi\\Desktop\\Front End\\Classes\\Classes.csproj"
+              },
+              "C:\\Users\\Yossi\\Desktop\\Front End\\Usefull Methods\\UsefullMethods.csproj": {
+                "projectPath": "C:\\Users\\Yossi\\Desktop\\Front End\\Usefull Methods\\UsefullMethods.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.0.1641, )"
+            },
+            "MonoGame.Extended": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "MonoGame.Extended.Content.Pipeline": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "MonoGame.Extended.Gui": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.8.0.1641, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Yossi\\Desktop\\Front End\\Classes\\Classes.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yossi\\Desktop\\Front End\\Classes\\Classes.csproj",
+        "projectName": "Classes",
+        "projectPath": "C:\\Users\\Yossi\\Desktop\\Front End\\Classes\\Classes.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\Yossi\\Desktop\\Front End\\Usefull Methods\\UsefullMethods.csproj": {
+                "projectPath": "C:\\Users\\Yossi\\Desktop\\Front End\\Usefull Methods\\UsefullMethods.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\Yossi\\Desktop\\Front End\\Usefull Methods\\UsefullMethods.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yossi\\Desktop\\Front End\\Usefull Methods\\UsefullMethods.csproj",
+        "projectName": "UsefullMethods",
+        "projectPath": "C:\\Users\\Yossi\\Desktop\\Front End\\Usefull Methods\\UsefullMethods.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}
