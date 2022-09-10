@@ -92,6 +92,14 @@
       <Project>{4e2da2ea-529f-4db8-b0ab-56e148d2a4e4}</Project>
       <Name>Content.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Classes\Classes.csproj">
+      <Project>{40e85e33-7b12-426c-a149-3cb0b50c495a}</Project>
+      <Name>Classes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Usefull Methods\UsefullMethods.csproj">
+      <Project>{ff3f869a-13dc-467e-a958-5934be5dc147}</Project>
+      <Name>UsefullMethods</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\Splash.png" />

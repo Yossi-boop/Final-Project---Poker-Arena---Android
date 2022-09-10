@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Platforms>AnyCPU;x64</Platforms>
@@ -18,13 +18,5 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Proxy\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Classes">
-      <HintPath>..\Classes.dll</HintPath>
-    </Reference>
-    <Reference Include="Usefull Methods">
-      <HintPath>..\Usefull Methods.dll</HintPath>
-    </Reference>
   </ItemGroup>
 </Project>
