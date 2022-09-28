@@ -582,7 +582,7 @@ namespace Casino
         private void MakeAction_Clicked(object sender, EventArgs e)
         {
             Button button = sender as Button;
-            Console.WriteLine(gameManager.server.MakeAnAction(tableId, casinoId, userEmail, signature, int.Parse(button.Name), int.Parse(raiseAmountTextbox.Text)));
+            gameManager.server.MakeAnAction(tableId, casinoId, userEmail, signature, int.Parse(button.Name), int.Parse(raiseAmountTextbox.Text));
         }
 
         private async void SitButton_Clicked(object sender, EventArgs e)
@@ -708,7 +708,7 @@ namespace Casino
             if (((string)raiseButton.Content).Equals("Confirm"))
             {
                 Button button = sender as Button;
-                Console.WriteLine(gameManager.server.MakeAnAction(tableId, casinoId, userEmail, signature, int.Parse(button.Name), int.Parse(raiseAmountTextbox.Text)));
+                gameManager.server.MakeAnAction(tableId, casinoId, userEmail, signature, int.Parse(button.Name), int.Parse(raiseAmountTextbox.Text));
                 raiseButton.Content = "Raise";
                 raiseUpButton.IsVisible = false;
                 raiseUpButton.IsEnabled = false;
