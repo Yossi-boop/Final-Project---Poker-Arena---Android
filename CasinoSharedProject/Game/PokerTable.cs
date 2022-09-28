@@ -1070,6 +1070,10 @@ namespace Casino
                     enterMoneyExit.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
                     enterMoneyTextbox.Update(i_input, new Vector2(enterMoneyRaiseDown.Position.X + 93 * width,
                         enterMoneyRaiseDown.Position.Y));
+                    if (int.Parse(enterMoneyTextbox.message) > myPlayer.Stat.Money)
+                    {
+                        enterMoneyTextbox.updateMessageExtern(myPlayer.Stat.Money.ToString());
+                    }
                 }
                 else
                 {

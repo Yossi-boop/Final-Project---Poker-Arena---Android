@@ -106,7 +106,14 @@ namespace Casino
         public void Draw(SpriteBatch i_painter)
         {
             i_painter.Draw(texture, new Rectangle((int)Position.X, (int)Position.Y, width, height), Color.White);
-            i_painter.DrawString(font, messageText.ToString(), new Vector2((int)Position.X + 10, (int)Position.Y + 15), Color.Black);
+            i_painter.DrawString(font, message, new Vector2((int)Position.X + 10, (int)Position.Y + 15), Color.Black);
+        }
+
+        public void updateMessageExtern(string i_givenInput)
+        {
+            messageText.Clear();
+            messageText.Append(i_givenInput);
+            message = i_givenInput;
         }
     }
 }
