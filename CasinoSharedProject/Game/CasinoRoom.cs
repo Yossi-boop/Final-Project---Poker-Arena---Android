@@ -87,6 +87,7 @@ namespace Casino
         private Rectangle winningAmountOfChestPanelRectangle;
         private bool isWinningAmountOfChestPanelVisible = false;
         private DrawingButton confirmWinButton;
+        private int winningAmountOfCoins = 0;
         #endregion
 
         private KeyboardInput keyboard;
@@ -252,6 +253,7 @@ namespace Casino
         #region Winning Chest Money Methods
         private void ConfirmWinButton_Click(object sender, EventArgs e)
         {
+            winningAmountOfCoins = 0;
             turnConfirmWinChestPanelOff();
         }
 
@@ -581,6 +583,7 @@ namespace Casino
                                         await gameManager.server.CollectChest("1234", mainPlayer.playerEmail);
                                         mainPlayer.stats = await gameManager.server.GetStats(mainPlayer.playerEmail);
                                         MediaPlayer.Play(storage.ChestSound);
+                                        winningAmountOfCoins = winningChest.GoldAmount;
                                         isWinningAmountOfChestPanelVisible = true;
                                     }
                                     currentInput = Keys.None;
@@ -1028,7 +1031,7 @@ namespace Casino
                     painter.DrawString(storage.Fonts[0],
                         string.Format(@"Enjoy Your {0} 
     New Coins!"
-    , winningChest.GoldAmount), new Vector2(winningAmountOfChestPanelRectangle.X + 80 * width, winningAmountOfChestPanelRectangle.Y + 8 * height), Color.Black);
+    , winningAmountOfCoins), new Vector2(winningAmountOfChestPanelRectangle.X + 80 * width, winningAmountOfChestPanelRectangle.Y + 8 * height), Color.Black);
                     confirmWinButton.Draw(i_gameTime, painter);
                 }
             }
