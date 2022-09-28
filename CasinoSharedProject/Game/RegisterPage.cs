@@ -31,6 +31,11 @@ namespace Casino
         private TextBox userNameTextBox;
         private TextBox emailTextBox;
         private TextBox passWordTextBox;
+        private Label errorMessage;
+
+        private const string emailAlreadyExist = "The email address is already being used.";
+        private const string enterRequestedFields = "Please fill the requested fields.";
+        private const string generalErrorMessage = "Something went wrong.";
 
         public RegisterPage(Game1 i_gameManager, GraphicsDevice i_grapics, ContentManager i_contentManager)
         {
@@ -77,6 +82,11 @@ namespace Casino
             passWordTextBox.Size = new Size(200, 50);
             passWordTextBox.VerticalAlignment = VerticalAlignment.Centre;
             passWordTextBox.HorizontalAlignment = HorizontalAlignment.Centre;
+
+            errorMessage = new Label(generalErrorMessage);
+            errorMessage.IsVisible = false;
+            errorMessage.TextColor = Color.Red;
+            errorMessage.Width = 300;
 
             StackPanel leftPanel = new StackPanel() { Size = new Size(100, 100), AttachedProperties = { { DockPanel.DockProperty, Dock.Left } } };
             StackPanel rightPanel = new StackPanel() { Size = new Size(100, 100), AttachedProperties = { { DockPanel.DockProperty, Dock.Right } } };
@@ -136,6 +146,14 @@ namespace Casino
 
             };
 
+            StackPanel errorMessagePanel = new StackPanel()
+            {
+                Orientation = Orientation.Horizontal,
+                Items =
+                {
+                    errorMessage
+                }
+            };
 
             StackPanel middlePanel = new StackPanel()
             {
@@ -154,7 +172,8 @@ namespace Casino
                     emailStackPanel,
                     passwordStackPanel,
                     signInStackPanel,
-                    cancelStackPanel
+                    cancelStackPanel,
+                    errorMessagePanel
                 }
             };
 
@@ -180,11 +199,32 @@ namespace Casino
 
         private async void SignInButton_Clicked(object sender, EventArgs e)
         {
-            bool res = await gameManager.server.SignUp(userNameTextBox.Text, emailTextBox.Text, passWordTextBox.Text);
-            if (res)
+            errorMessage.IsVisible = false;
+            if (userNameTextBox.Text.Length == 0 || passWordTextBox.Text.Length == 0 ||
+                emailTextBox.Text.Length == 0)
             {
-                gameManager.mainPlayerEmail = emailTextBox.Text;
-                gameManager.ScreenType = eScreenType.CasinoRoom;
+                errorMessage.Content = enterRequestedFields;
+                errorMessage.IsVisible = true;
+            }
+            else
+            {
+                string registerResponse = await gameManager.server.SignUp(userNameTextBox.Text,
+                    emailTextBox.Text, passWordTextBox.Text);
+                if (registerResponse.Contains("Successed"))
+                {
+                    gameManager.mainPlayerEmail = emailTextBox.Text;
+                    gameManager.ScreenType = eScreenType.CasinoRoom;
+                }
+                else if (registerResponse.Contains("Email already exist"))
+                {
+                    errorMessage.Content = emailAlreadyExist;
+                    errorMessage.IsVisible = true;
+                }
+                else
+                {
+                    errorMessage.Content = generalErrorMessage;
+                    errorMessage.IsVisible = true;
+                }
             }
         }
 

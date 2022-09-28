@@ -504,7 +504,7 @@ namespace Server
             }
         }
 
-        public async Task<bool> SignUp(string i_UserName, string i_Email, string i_Password)
+        public async Task<string> SignUp(string i_UserName, string i_Email, string i_Password)
         {
             try
             {
@@ -519,14 +519,14 @@ namespace Server
                 if (result.Equals("\"Successed\""))
                 {
                     createStatsForPlayer(i_Email);
-                    return true;
+                    return result;
                 }
 
-                return false;
+                return result;
             }
             catch (Exception)
             {
-                return false;
+                return "";
             }
         }
 

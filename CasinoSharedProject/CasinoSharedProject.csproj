@@ -19,4 +19,8 @@
   <ItemGroup>
     <Folder Include="Proxy\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Classes\Classes.csproj" />
+    <ProjectReference Include="..\Usefull Methods\UsefullMethods.csproj" />
+  </ItemGroup>
 </Project>
