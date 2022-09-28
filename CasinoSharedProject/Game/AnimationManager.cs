@@ -134,10 +134,6 @@ namespace Casino
                 {
                     painter.Draw(currentPicture, new Rectangle((int)i_drawingPosition.X, (int)i_drawingPosition.Y, (int)(storage.width * Game1.listOfSprites[(int)playerSkin].playerWidth), (int)(storage.heigth * Game1.listOfSprites[(int)playerSkin].playerHeight)), Color.White);
                 }
-                else if (playerSkin == PlayerSkin.Knight)
-                {
-                    painter.Draw(currentPicture, new Rectangle((int)i_drawingPosition.X, (int)i_drawingPosition.Y, (int)(storage.width * Game1.listOfSprites[(int)playerSkin].playerWidth), (int)(storage.heigth * Game1.listOfSprites[(int)playerSkin].playerHeight)), Color.White);
-                }
                 else if (playerSkin == PlayerSkin.Zombie)
                 {
                     painter.Draw(currentPicture, new Rectangle((int)i_drawingPosition.X, (int)i_drawingPosition.Y, (int)(storage.width * Game1.listOfSprites[(int)playerSkin].playerWidth), (int)(storage.heigth * Game1.listOfSprites[(int)playerSkin].playerHeight)), Color.White);
@@ -161,10 +157,6 @@ namespace Casino
                     }
                 }
                 else if (playerSkin == PlayerSkin.Jack)
-                {
-                    painter.Draw(currentPicture, new Rectangle((int)i_drawingPosition.X, (int)i_drawingPosition.Y, (int)(storage.width * Game1.listOfSprites[(int)playerSkin].playerWidth), (int)(storage.heigth * Game1.listOfSprites[(int)playerSkin].playerHeight)), Color.White);
-                }
-                else if (playerSkin == PlayerSkin.Knight)
                 {
                     painter.Draw(currentPicture, new Rectangle((int)i_drawingPosition.X, (int)i_drawingPosition.Y, (int)(storage.width * Game1.listOfSprites[(int)playerSkin].playerWidth), (int)(storage.heigth * Game1.listOfSprites[(int)playerSkin].playerHeight)), Color.White);
                 }

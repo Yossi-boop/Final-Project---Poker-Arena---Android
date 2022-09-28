@@ -106,7 +106,6 @@ namespace Casino
     {
         Ninja,
         Jack,
-        Knight,
         Zombie
     }
 

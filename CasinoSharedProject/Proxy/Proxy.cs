@@ -536,7 +536,7 @@ namespace Server
             {
                 var values = JObject.FromObject(i_User);
 
-                string result = await postReq(values.ToString(), BaseURL + BaseURL + "api/User?i_Email=" + i_LastEmail, "PUT");
+                string result = await postReq(values.ToString(), BaseURL + "api/User?i_Email=" + i_LastEmail, "PUT");
             }
             catch (Exception) { }
         }
