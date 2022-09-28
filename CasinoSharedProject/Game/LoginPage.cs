@@ -251,12 +251,10 @@ namespace Casino
 
                 if (loginResponse.Contains("loggedIn complete")) // Successful login
                 {
-                    if (gameManager.casinoRoom == null)
-                    {
-                        gameManager.casinoRoom = new CasinoRoom(gameManager, contentManager, storage);
-                        gameManager.mainPlayerEmail = userNameTextBox.Text;
-                        await gameManager.casinoRoom.Load(_spriteBatch);
-                    }
+                    gameManager.casinoRoom = new CasinoRoom(gameManager, contentManager, storage);
+                    gameManager.mainPlayerEmail = userNameTextBox.Text;
+                    await gameManager.casinoRoom.Load(_spriteBatch);
+                    
                     //gameManager.mainPlayerEmail = userNameTextBox.Text;
                     
                     gameManager.ScreenType = eScreenType.CasinoRoom;
