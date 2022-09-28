@@ -1259,9 +1259,9 @@ namespace Casino
                 MediaPlayer.Play(storage.CoinsMusic);
                 gameManager.pokerTable = new PokerTable(gameManager, gameManager.GraphicsDevice, painter, storage,
                     contentManager, "1234", i_tableID, i_playerEmail, i_playerName);
+                await gameManager.pokerTable.Load(currentTable);
                 casinoTimer.Enabled = false;
                 initializeIntervalsForPokerTimer();
-                await gameManager.pokerTable.Load(currentTable);
                 gameManager.ScreenType = eScreenType.PokerTable;
             }
             catch (Exception) { }
