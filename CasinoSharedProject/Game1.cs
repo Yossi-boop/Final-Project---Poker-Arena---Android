@@ -46,7 +46,6 @@ namespace Casino
 
             listOfSprites.Add(new CharcterSprite(PlayerSkin.Ninja, 75, 100));
             listOfSprites.Add(new CharcterSprite(PlayerSkin.Jack, 75, 100));
-            listOfSprites.Add(new CharcterSprite(PlayerSkin.Knight, 85, 130));
             listOfSprites.Add(new CharcterSprite(PlayerSkin.Zombie, 75, 100));
         }
 
