@@ -520,8 +520,7 @@ namespace Casino
                 if (furniture != null)
                 {
                     if ((furniture.Type == 0 || furniture.Type == 4 || furniture.Type == 18 ||
-                        furniture.Type == 2 || furniture.Type == 17 || furniture.Type == 1) &&
-                        !casinoRoomNewChat.IsChatVisible)
+                        furniture.Type == 2 || furniture.Type == 17 || furniture.Type == 1))
                     {
                         explainButton.IsVisible = true;
                     }
@@ -541,7 +540,7 @@ namespace Casino
                         explainButton.IsVisible = false;
                     }
 
-                    if (currentInput == Keys.Space && !casinoRoomNewChat.IsChatVisible)
+                    if (currentInput == Keys.Space)
                     {
                         switch (furniture.Type)
                         {
@@ -751,7 +750,7 @@ namespace Casino
         {
             try
             {
-                if (explainButton.IsVisible && !casinoRoomNewChat.IsChatVisible)
+                if (explainButton.IsVisible)
                 {
                     explainButton.Position = new Vector2(390 * width, 154 * height) + camera.Position;
                     explainButton.Update(i_gameTime, (int)camera.Position.X - Game1.UserScreenWidth / 2,
