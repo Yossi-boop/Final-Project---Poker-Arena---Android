@@ -412,6 +412,11 @@ namespace Server
 
                 string result = await postReq(values.ToString(), BaseURL + "api/PokerTablePlayer", "POST");
 
+                if (result.Contains("User not have enough balance"))
+                {
+                    return "User not have enough balance";
+                }
+
                 return result.Substring(1, 15);
             }
             catch (Exception)

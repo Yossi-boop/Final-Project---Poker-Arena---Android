@@ -73,7 +73,6 @@ namespace Casino
         private Button raiseDownButton;
         private Button allInButton;
         private TextBox raiseAmountTextbox;
-        private TextBox addAmountTextbox;
         private Button handsRatingButton;
         private ProgressBar playerRemainingTime;
 
@@ -118,6 +117,12 @@ namespace Casino
         private DrawingButton closeStatsPanelButton;
         private bool isStatsPanelVisible = false;
         private int currentStatsPlayer = -1;
+        #endregion
+
+        #region Find chest panel
+        private bool isFindChestPanelVisible = false;
+        private DrawingButton findChestConfirm;
+        private Rectangle findChestRectangle;
         #endregion
 
         private DrawingButton volumeOnOffButton;
@@ -277,15 +282,6 @@ namespace Casino
                 };
                 raiseAmountTextbox.TextChanged += raiseAmountTextbox_TextChanged;
 
-                addAmountTextbox = new TextBox("0")
-                {
-                    Size = new Size((int)(100 * width), (int)(50 * height)),
-                    IsVisible = true,
-                    IsEnabled = true,
-                    HorizontalAlignment = HorizontalAlignment.Centre,
-                    VerticalAlignment = VerticalAlignment.Centre
-                };
-
                 exitButton = new Button
                 {
                     Size = new Size((int)(200 * width), (int)(50 * height)),
@@ -434,6 +430,10 @@ namespace Casino
                 }
                 volumeOnOffButton.Click += VolumeOnOffButton_Click;
 
+                findChestConfirm = new DrawingButton(storage.GreenUI[0], storage.Fonts[0]);
+                findChestConfirm.Text = "Confrim";
+                findChestConfirm.Click += FindChestConfirm_Click;
+
                 StackPanel fixedButtonsPanel = new StackPanel()
                 {
                     Margin = 5,
@@ -513,6 +513,11 @@ namespace Casino
             }
         }
 
+        private void FindChestConfirm_Click(object sender, EventArgs e)
+        {
+            isFindChestPanelVisible = false;
+        }
+
         private void VolumeOnOffButton_Click(object sender, EventArgs e)
         {
             try
@@ -533,7 +538,10 @@ namespace Casino
 
         private void allInButton_Clicked(object sender, EventArgs e)
         {
-            raiseAmountTextbox.Text = (myPlayer.Money + myPlayer.CurrentRoundBet).ToString();
+            if (myPlayer != null)
+            {
+                raiseAmountTextbox.Text = (myPlayer.Money + myPlayer.CurrentRoundBet).ToString();
+            }
         }
 
         private void raiseAmountTextbox_TextChanged(object sender, EventArgs e)
@@ -542,7 +550,7 @@ namespace Casino
             {
                 raiseAmountTextbox.Text = minimumRaise.ToString();
             }
-            else if (raiseAmount > myPlayer.Money + myPlayer.CurrentRoundBet)
+            else if (myPlayer != null && raiseAmount > myPlayer.Money + myPlayer.CurrentRoundBet)
             {
                 raiseAmountTextbox.Text = (myPlayer.Money + myPlayer.CurrentRoundBet).ToString();
             }
@@ -556,7 +564,14 @@ namespace Casino
 
         private void closeStatsPanel()
         {
-            isStatsPanelVisible = false;
+            try
+            {
+                isStatsPanelVisible = false;
+            }
+            catch(Exception)
+            {
+
+            }
         }
 
         private void CloseHandsRatingButton_Click(object sender, EventArgs e)
@@ -565,7 +580,14 @@ namespace Casino
         }
         private void exitRebuyPanel_Clicked(object sender, EventArgs e)
         {
-            isEnterMoneyPanelVisible = false;
+            try
+            {
+                isEnterMoneyPanelVisible = false;
+            }
+            catch(Exception)
+            {
+
+            }
         }
         private void HandsRatingButton_Clicked(object sender, EventArgs e)
         {
@@ -587,9 +609,24 @@ namespace Casino
 
         private async void SitButton_Clicked(object sender, EventArgs e)
         {
-            DrawingButton button = sender as DrawingButton;
-            index = int.Parse(button.Name);
-            signature = await gameManager.server.AddPlayerToTable(tableId, casinoId, userEmail, userName, 1000, int.Parse(button.Name));
+            try
+            {
+                DrawingButton button = sender as DrawingButton;
+                index = int.Parse(button.Name);
+                string result = await gameManager.server.AddPlayerToTable(tableId, casinoId, userEmail, userName, 1000, int.Parse(button.Name));
+                if (result.Contains("User not have enough balance"))
+                {
+                    isFindChestPanelVisible = true;
+                }
+                else
+                {
+                    signature = result;
+                }
+            }
+            catch(Exception)
+            {
+
+            }
         }
 
         private void initializeIntervals()
@@ -615,12 +652,9 @@ namespace Casino
                     currentRoundPart = round.Part;
                     lastRoundPart = (currentRoundPart == RoundPart.PreFlop) ? currentRoundPart : lastRoundPart;
                     currentBettingRound = round.currentBettingRound;
-                    currentPlayer = currentBettingRound.CurrentPlayer;
+                    if(currentBettingRound != null)
+                        currentPlayer = currentBettingRound.CurrentPlayer;
                     cardDrawingLocations = calculateCardLocation(round);
-                }
-                else
-                {
-
                 }
 
                 List<Message> testChatData = await gameManager.server.GetTableChatMessages(tableId, casinoId);
@@ -633,47 +667,63 @@ namespace Casino
 
         private List<int> calculateCardLocation(Round round)
         {
-            List<int> list = new List<int>();
-            int sitNumber = round.Dealer + 1;
-            for (int i = 0; i < 9; i++)
+            try
             {
-                if (round.ActivePlayersIndex[(sitNumber + i) % 9] != null && round.ActivePlayersIndex[(sitNumber + i) % 9].InHand)
+                List<int> list = new List<int>();
+                int sitNumber = round.Dealer + 1;
+                if (round.ActivePlayersIndex != null)
                 {
-                    list.Add((sitNumber + i) % 9);
+                    for (int i = 0; i < 9; i++)
+                    {
+                        if (round.ActivePlayersIndex[(sitNumber + i) % 9] != null && round.ActivePlayersIndex[(sitNumber + i) % 9].InHand)
+                        {
+                            list.Add((sitNumber + i) % 9);
+                        }
+                    }
+                    for (int i = 0; i < 9; i++)
+                    {
+                        if (round.ActivePlayersIndex[(sitNumber + i) % 9] != null && round.ActivePlayersIndex[(sitNumber + i) % 9].InHand)
+                        {
+                            list.Add(((sitNumber + i) % 9) + 10);
+                        }
+                    }
                 }
-            }
-            for (int i = 0; i < 9; i++)
-            {
-                if (round.ActivePlayersIndex[(sitNumber + i) % 9] != null && round.ActivePlayersIndex[(sitNumber + i) % 9].InHand)
-                {
-                    list.Add(((sitNumber + i) % 9) + 10);
-                }
-            }
 
-            return list;
+                return list;
+            }
+            catch(Exception)
+            {
+                return null;
+            }
         }
 
         private void AddDownButton_Clicked(object sender, EventArgs e)
         {
-            if (int.Parse(addAmountTextbox.Text) - 500 > 0)
+            if (int.Parse(enterMoneyTextbox.message) - table.GameSetting.MinBalance > table.GameSetting.MinBalance)
             {
-                addAmountTextbox.Text = (int.Parse(addAmountTextbox.Text) - 500).ToString();
-            }
-            else
-            {
-                addAmountTextbox.Text = "0";
+                enterMoneyTextbox.updateMessageExtern((int.Parse(enterMoneyTextbox.message) - table.GameSetting.MinBalance).ToString());
             }
         }
 
         private void AddUpButton_Clicked(object sender, EventArgs e)
         {
-            if (int.Parse(addAmountTextbox.Text) + 500 < myPlayer.Stat.Money)
+            try
             {
-                addAmountTextbox.Text = (int.Parse(addAmountTextbox.Text) + 500).ToString();
+                if (myPlayer != null && myPlayer.Stat != null)
+                {
+                    if (int.Parse(enterMoneyTextbox.message) + table.GameSetting.MinBalance < myPlayer.Stat.Money && int.Parse(enterMoneyTextbox.message) + table.GameSetting.MinBalance <= table.GameSetting.MaxBalance )
+                    {
+                        enterMoneyTextbox.updateMessageExtern((int.Parse(enterMoneyTextbox.message) + table.GameSetting.MinBalance).ToString());
+                    }
+                    else
+                    {
+                        enterMoneyTextbox.updateMessageExtern(myPlayer.Stat.Money.ToString());
+                    }
+                }
             }
-            else
+            catch (Exception)
             {
-                addAmountTextbox.Text = myPlayer.Stat.Money.ToString();
+
             }
         }
 
@@ -846,8 +896,19 @@ namespace Casino
                 }
 
                 updateEnterMoneyPanel(i_gametime, currentInput, touchLocation);
+                updateFindChestPanel(i_gametime, touchLocation);
             }
             catch (Exception) { }
+        }
+
+        private void updateFindChestPanel(GameTime i_gametime, Vector2 i_touchLocation)
+        {
+            if (isFindChestPanelVisible)
+            {
+                findChestRectangle = new Rectangle((int)(400 * width), (int)(250 * height), (int)(550 * width), (int)(200 * height));
+                findChestConfirm.Position = new Vector2(findChestRectangle.X + 180 * width, findChestRectangle.Y + 135 * height);
+                findChestConfirm.Update(i_gametime, 0, 0, (int)i_touchLocation.X, (int)i_touchLocation.Y);
+            }
         }
 
         private int checkIfInTable()
@@ -1042,7 +1103,7 @@ namespace Casino
         {
             try
             {
-                if (isEnterMoneyPanelVisible)
+                if (isEnterMoneyPanelVisible && myPlayer != null)
                 {
                     enterMoneyRaiseUp.IsEnabled = true;
                     enterMoneyRaiseUp.IsVisible = true;
@@ -1070,13 +1131,20 @@ namespace Casino
                     enterMoneyExit.Update(i_gameTime, 0, 0, (int)i_screenTouch.X, (int)i_screenTouch.Y);
                     enterMoneyTextbox.Update(i_input, new Vector2(enterMoneyRaiseDown.Position.X + 93 * width,
                         enterMoneyRaiseDown.Position.Y));
-                    if (int.Parse(enterMoneyTextbox.message) > myPlayer.Stat.Money)
+                    if (enterMoneyTextbox.message.Length > 0)
                     {
-                        enterMoneyTextbox.updateMessageExtern(myPlayer.Stat.Money.ToString());
+                        if (int.Parse(enterMoneyTextbox.message) > myPlayer.Stat.Money)
+                        {
+                            if (myPlayer.Stat.Money <= table.GameSetting.MaxBalance)
+                                enterMoneyTextbox.updateMessageExtern(myPlayer.Stat.Money.ToString());
+                            else
+                                enterMoneyTextbox.updateMessageExtern(table.GameSetting.MaxBalance.ToString());
+                        }
                     }
                 }
                 else
                 {
+                    isEnterMoneyPanelVisible = false;
                     enterMoneyRaiseUp.IsEnabled = false;
                     enterMoneyRaiseUp.IsVisible = false;
                     enterMoneyRaiseDown.IsEnabled = false;
@@ -1121,13 +1189,17 @@ namespace Casino
         {
             if (myPlayer.Money <= 0)
             {
-                Task.Delay(3000).ContinueWith(task => changeRebuyPanel());
+                if (myPlayer.Stat.Money >= table.GameSetting.MinBalance)
+                    Task.Delay(3000).ContinueWith(task => changeRebuyPanel());
+                else
+                    isFindChestPanelVisible = true;
             }
         }
 
         private void changeRebuyPanel()
         {
             isEnterMoneyPanelVisible = true;
+            enterMoneyTextbox.updateMessageExtern(table.GameSetting.MinBalance.ToString());
         }
 
         private void hideBettingButtons()
@@ -1214,11 +1286,26 @@ namespace Casino
                 drawStatsPanel(i_gametime);
 
                 drawEnterMoneyPanel(i_gametime);
+                drawFindChestPanel(i_gametime);
             }
             catch (Exception)
             {
             }
 
+        }
+
+        private void drawFindChestPanel(GameTime i_gametime)
+        {
+            if (isFindChestPanelVisible)
+            {
+                painter.Draw(storage.GreenUI[5], findChestRectangle, Color.White);
+                painter.DrawString(storage.Fonts[0],
+                    @"You're out of GOLD!
+Go find a chest 
+inside the casino room!"
+, new Vector2(findChestRectangle.X + 120 * width, findChestRectangle.Y + 15 * height), Color.Black);
+                findChestConfirm.Draw(i_gametime, painter);
+            }
         }
 
         private void drawTotalBets(GameTime i_gametime)
@@ -1325,7 +1412,7 @@ namespace Casino
         {
             try
             {
-                if (isEnterMoneyPanelVisible)
+                if (isEnterMoneyPanelVisible && myPlayer != null)
                 {
                     painter.Draw(storage.GreenUI[5], enterMoneyRectangle, Color.White);
                     painter.DrawString(storage.Fonts[0], "Buy Into Game", 
