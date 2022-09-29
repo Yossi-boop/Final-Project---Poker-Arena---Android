@@ -3037,6 +3037,23 @@
 /processorParam:TextureFormat=Color
 /build:PokerSigns/Raise.png
 
+#begin Sensation.fnt
+/importer:
+/processor:
+/build:Sensation.fnt
+
+#begin Sensation_0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sensation_0.png
+
 #begin Sounds/BackgroundMusic.mp3
 /importer:Mp3Importer
 /processor:SongProcessor
